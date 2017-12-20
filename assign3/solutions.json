@@ -1,0 +1,19 @@
+[
+    "",
+    "Term: (Binop Add (Int 3) (Int 7))\nType: Int\nSuccess: (Int 10)\n",
+    "Term: (Binop Sub (Int 3) (Binop Mul (Binop Mul (Int 2) (Int 7)) (Int 2)))\nType: Int\nSuccess: (Int -25)\n",
+    "Error: Parse Error: 4\n",
+    "Term: (Binop Div (Int 3) (Int 0))\nType: Int\nError: Divide by 0\n",
+    "Error: Parse Error: 0\n",
+    "Error: Parse Error: 8\n",
+    "Term: (App (Lam test (Fn Int Int) (App (Var test) (Int 3)))\n (Lam x Int (Lam y Int (Binop Add (Var x) (Var y)))))\nError: Attempted to call function (Lam test (Fn Int Int) (App (Var test) (Int 3))) of arg type (Fn Int Int) with expr (Lam x Int (Lam y Int (Binop Add (Var x) (Var y)))) of type (Fn Int (Fn Int Int))\n",
+    "Term: (App (Lam clow Int (Binop Mul (Var clow) (Int 7))) (Int 20))\nType: Int\nSuccess: (Int 140)\n",
+    "Term: (App\n (App\n  (App (Lam x Int (Lam y Int (Lam x Int (Binop Add (Var x) (Var y)))))\n   (Int 3))\n  (Int 7))\n (Int 8))\nType: Int\nSuccess: (Int 15)\n",
+    "Term: (Lam john Int (Var testing))\nError: Unbound variable testing\n",
+    "Term: (App\n (Lam x Int\n  (App (Lam y Int (Binop Add (Var y) (Int 1))) (Binop Add (Var y) (Var x))))\n (Int 3))\nError: Unbound variable y\n",
+    "Term: (Lam john (Fn Int Int) (Binop Add (Int 3) (App (Var john) (Int 7))))\nType: (Fn (Fn Int Int) Int)\nSuccess: (Lam john (Fn Int Int) (Binop Add (Int 3) (App (Var john) (Int 7))))\n",
+    "Term: (Lam john (Fn Int (Fn Int Int)) (Int 3))\nType: (Fn (Fn Int (Fn Int Int)) Int)\nSuccess: (Lam john (Fn Int (Fn Int Int)) (Int 3))\n",
+    "Term: (App\n (Lam john (Fn Int (Fn Int Int)) (App (App (Var john) (Int 37)) (Int 13)))\n (Lam et Int\n  (Lam le Int (Binop Add (Binop Mul (Var le) (Int 100)) (Var et)))))\nType: Int\nSuccess: (Int 1337)\n",
+    "Term: (App (Int 3) (Int 4))\nError: Attempted to call (Int 3) of non-function type Int as a function\n",
+    "Term: (Binop Add (Lam x Int (Binop Mul (Var x) (Int 7))) (Int 3))\nError: Two ops are not ints\n"
+]

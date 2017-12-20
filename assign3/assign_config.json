@@ -1,0 +1,91 @@
+{
+    "__note": "All the __expects are just human-readable expected outcomes",
+    "assign_num": 3,
+    "tests": [
+        {
+            "name": "Make Code",
+            "command": "make > /dev/null",
+            "timeout": 300
+        },
+        {
+            "name": "Binop1",
+            "command": "./main.native tests/binop1.lam1",
+            "__expect": 10
+        },
+        {
+            "name": "Binop2",
+            "command": "./main.native tests/binop2.lam1",
+            "__expect": " Should return -22.  language doesn't support order of ops except parens"
+        },
+        {
+            "name": "Binop fail1",
+            "command": "./main.native tests/binop_fail1.lam1",
+            "__expect": "Parse Error" 
+        },
+        {
+            "name": "Binop fail2",
+            "command": "./main.native tests/binop_fail2.lam1",
+            "__expect": "Divide by zero error"
+        },
+        {
+            "name": "Binop fail3",
+            "command": "./main.native tests/binop_fail3.lam1",
+            "__expect": "Parse error (There is no unary minus support in this language)"
+        },
+        {
+            "name": "Binop fail4",
+            "command": "./main.native tests/binop_fail4.lam1",
+            "__expect": "Parse error, there is no unary plus"
+        },
+        {
+            "name": "Function apply error 1",
+            "command": "./main.native tests/function_apply_error1.lam1",
+            "__expect:": "Type mismatch"
+        },
+        {
+            "name": "Function apply1",
+            "command": "./main.native tests/function_apply1.lam1",
+            "__expect:": 140
+        },
+        {
+            "name": "Function apply2",
+            "command": "./main.native tests/function_apply2.lam1",
+            "__expect": 10
+        },
+        {
+            "name": "Function error1",
+            "command": "./main.native tests/function_error1.lam1",
+            "__expect": "unbound variable"
+        },
+        {
+            "name": "Function error2",
+            "command": "./main.native tests/function_error2.lam1",
+            "__expect": "unbound variable"
+        },
+        {
+            "name": "Function type1",
+            "command": "./main.native tests/function_type1.lam1",
+            "__expect": "Returns valid function that takes a int-> int argument"
+        },
+        {
+            "name": "Function type2",
+            "command": "./main.native tests/function_type2.lam1",
+            "__expect": "Returns a valid function"
+        },
+        {
+            "name": "Function type3",
+            "command": "./main.native tests/function_type3.lam1",
+            "__expect": 1337
+        },
+        {
+            "name": "Simple fail1",
+            "command": "./main.native tests/simple_fail1.lam1",
+            "__expect": "Failure when applying Apply rule"
+        },
+        {
+            "name": "Simple fail2",
+            "command": "./main.native tests/simple_fail2.lam1",
+            "__expect": "Type mismatch for the binary operation"
+        }
+    ]
+}

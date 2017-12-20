@@ -1,0 +1,1089 @@
+"src/code_examples.ml" 7 141 145 "src/code_examples.ml" 7 141 160
+type(
+  unit -> unit
+)
+ident(
+  def printf_examples "src/code_examples.ml" 38 1685 1685 "src/code_examples.ml" 1 0 -1
+)
+"src/code_examples.ml" 7 141 161 "src/code_examples.ml" 7 141 163
+type(
+  unit
+)
+"src/code_examples.ml" 9 188 190 "src/code_examples.ml" 9 188 203
+type(
+  (unit, Stdio.Out_channel.t, unit) Base.format -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 9 188 204 "src/code_examples.ml" 9 188 219
+type(
+  (unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 9 188 190 "src/code_examples.ml" 9 188 219
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 10 221 223 "src/code_examples.ml" 10 221 236
+type(
+  (int -> unit, Stdio.Out_channel.t, unit) Base.format -> int -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 10 221 237 "src/code_examples.ml" 10 221 253
+type(
+  (int -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 10 221 254 "src/code_examples.ml" 10 221 255
+type(
+  int
+)
+"src/code_examples.ml" 10 221 223 "src/code_examples.ml" 10 221 255
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 11 257 259 "src/code_examples.ml" 11 257 272
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format -> string -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 11 257 273 "src/code_examples.ml" 11 257 293
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 11 257 294 "src/code_examples.ml" 11 257 307
+type(
+  string
+)
+"src/code_examples.ml" 11 257 259 "src/code_examples.ml" 11 257 307
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 14 353 359 "src/code_examples.ml" 14 353 360
+type(
+  string
+)
+ident(
+  def s "src/code_examples.ml" 15 395 397 "src/code_examples.ml" 32 1412 1453
+)
+"src/code_examples.ml" 14 353 363 "src/code_examples.ml" 14 353 377
+type(
+  (int -> int -> string, unit, string) Base.format -> int -> int -> string
+)
+ident(
+  ext_ref Core.Printf.sprintf
+)
+"src/code_examples.ml" 14 353 378 "src/code_examples.ml" 14 353 387
+type(
+  (int -> int -> string, unit, string) Base.format
+)
+"src/code_examples.ml" 14 353 388 "src/code_examples.ml" 14 353 389
+type(
+  int
+)
+"src/code_examples.ml" 14 353 390 "src/code_examples.ml" 14 353 391
+type(
+  int
+)
+"src/code_examples.ml" 14 353 363 "src/code_examples.ml" 14 353 391
+call(
+  stack
+)
+type(
+  string
+)
+"src/code_examples.ml" 15 395 397 "src/code_examples.ml" 15 395 410
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format -> string -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 15 395 411 "src/code_examples.ml" 15 395 444
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 15 395 445 "src/code_examples.ml" 15 395 446
+type(
+  string
+)
+ident(
+  int_ref s "src/code_examples.ml" 14 353 359 "src/code_examples.ml" 14 353 360
+)
+"src/code_examples.ml" 15 395 397 "src/code_examples.ml" 15 395 446
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 29 1246 1252 "src/code_examples.ml" 29 1246 1254
+type(
+  Type.t
+)
+ident(
+  def ty "src/code_examples.ml" 30 1309 1311 "src/code_examples.ml" 32 1412 1453
+)
+"src/code_examples.ml" 29 1246 1266 "src/code_examples.ml" 29 1246 1274
+type(
+  Type.t
+)
+"src/code_examples.ml" 29 1246 1285 "src/code_examples.ml" 29 1246 1293
+type(
+  Type.t
+)
+"src/code_examples.ml" 29 1246 1295 "src/code_examples.ml" 29 1246 1303
+type(
+  Type.t
+)
+"src/code_examples.ml" 29 1246 1276 "src/code_examples.ml" 29 1246 1304
+type(
+  Type.t
+)
+"src/code_examples.ml" 29 1246 1257 "src/code_examples.ml" 29 1246 1305
+type(
+  Type.t
+)
+"src/code_examples.ml" 30 1309 1315 "src/code_examples.ml" 30 1309 1316
+type(
+  Term.t
+)
+ident(
+  def e "src/code_examples.ml" 31 1368 1370 "src/code_examples.ml" 32 1412 1453
+)
+"src/code_examples.ml" 30 1309 1331 "src/code_examples.ml" 30 1309 1339
+type(
+  Term.binop
+)
+"src/code_examples.ml" 30 1309 1350 "src/code_examples.ml" 30 1309 1351
+type(
+  int
+)
+"src/code_examples.ml" 30 1309 1341 "src/code_examples.ml" 30 1309 1351
+type(
+  Term.t
+)
+"src/code_examples.ml" 30 1309 1362 "src/code_examples.ml" 30 1309 1363
+type(
+  int
+)
+"src/code_examples.ml" 30 1309 1353 "src/code_examples.ml" 30 1309 1363
+type(
+  Term.t
+)
+"src/code_examples.ml" 30 1309 1319 "src/code_examples.ml" 30 1309 1364
+type(
+  Term.t
+)
+"src/code_examples.ml" 31 1368 1370 "src/code_examples.ml" 31 1368 1383
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format -> string -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 31 1368 1384 "src/code_examples.ml" 31 1368 1390
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 31 1368 1392 "src/code_examples.ml" 31 1368 1406
+type(
+  Type.t -> string
+)
+ident(
+  ext_ref Ast.Type.to_string
+)
+"src/code_examples.ml" 31 1368 1407 "src/code_examples.ml" 31 1368 1409
+type(
+  Type.t
+)
+ident(
+  int_ref ty "src/code_examples.ml" 29 1246 1252 "src/code_examples.ml" 29 1246 1254
+)
+"src/code_examples.ml" 31 1368 1391 "src/code_examples.ml" 31 1368 1410
+call(
+  stack
+)
+type(
+  string
+)
+"src/code_examples.ml" 31 1368 1370 "src/code_examples.ml" 31 1368 1410
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 32 1412 1414 "src/code_examples.ml" 32 1412 1427
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format -> string -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 32 1412 1428 "src/code_examples.ml" 32 1412 1434
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 32 1412 1436 "src/code_examples.ml" 32 1412 1450
+type(
+  Term.t -> string
+)
+ident(
+  ext_ref Ast.Term.to_string
+)
+"src/code_examples.ml" 32 1412 1451 "src/code_examples.ml" 32 1412 1452
+type(
+  Term.t
+)
+ident(
+  int_ref e "src/code_examples.ml" 30 1309 1315 "src/code_examples.ml" 30 1309 1316
+)
+"src/code_examples.ml" 32 1412 1435 "src/code_examples.ml" 32 1412 1453
+call(
+  stack
+)
+type(
+  string
+)
+"src/code_examples.ml" 32 1412 1414 "src/code_examples.ml" 32 1412 1453
+call(
+  tail
+)
+type(
+  unit
+)
+"src/code_examples.ml" 31 1368 1370 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 30 1309 1311 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 29 1246 1248 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 15 395 397 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 14 353 355 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 11 257 259 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 10 221 223 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 9 188 190 "src/code_examples.ml" 32 1412 1453
+type(
+  unit
+)
+"src/code_examples.ml" 38 1685 1689 "src/code_examples.ml" 38 1685 1701
+type(
+  unit -> unit
+)
+ident(
+  def map_examples "src/code_examples.ml" 68 2891 2891 "src/code_examples.ml" 1 0 -1
+)
+"src/code_examples.ml" 38 1685 1702 "src/code_examples.ml" 38 1685 1704
+type(
+  unit
+)
+"src/code_examples.ml" 39 1707 1713 "src/code_examples.ml" 39 1707 1717
+type(
+  Type.t String.Map.t
+)
+ident(
+  def map1 "src/code_examples.ml" 44 1927 1929 "src/code_examples.ml" 58 2419 2436
+)
+"src/code_examples.ml" 39 1707 1742 "src/code_examples.ml" 39 1707 1758
+type(
+  Type.t String.Map.t
+)
+type(
+  Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.empty
+)
+"src/code_examples.ml" 44 1927 1933 "src/code_examples.ml" 44 1927 1937
+type(
+  Type.t String.Map.t
+)
+ident(
+  def map2 "src/code_examples.ml" 51 2194 2196 "src/code_examples.ml" 58 2419 2436
+)
+"src/code_examples.ml" 45 1962 1966 "src/code_examples.ml" 45 1962 1980
+type(
+  Type.t String.Map.t -> key:string -> data:Type.t -> Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.add
+)
+"src/code_examples.ml" 45 1962 1981 "src/code_examples.ml" 45 1962 1985
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref map1 "src/code_examples.ml" 39 1707 1713 "src/code_examples.ml" 39 1707 1717
+)
+"src/code_examples.ml" 45 1962 1991 "src/code_examples.ml" 45 1962 1994
+type(
+  string
+)
+"src/code_examples.ml" 45 1962 2001 "src/code_examples.ml" 45 1962 2011
+type(
+  Type.t
+)
+"src/code_examples.ml" 45 1962 1966 "src/code_examples.ml" 45 1962 2011
+call(
+  stack
+)
+type(
+  Type.t String.Map.t
+)
+type(
+  Type.t String.Map.t
+)
+"src/code_examples.ml" 51 2194 2200 "src/code_examples.ml" 51 2194 2211
+type(
+  string -> unit
+)
+ident(
+  def print_value "src/code_examples.ml" 57 2400 2402 "src/code_examples.ml" 58 2419 2436
+)
+"src/code_examples.ml" 51 2194 2213 "src/code_examples.ml" 51 2194 2214
+type(
+  string
+)
+ident(
+  def k "src/code_examples.ml" 51 2194 2225 "src/code_examples.ml" 54 2327 2393
+)
+"src/code_examples.ml" 52 2234 2244 "src/code_examples.ml" 52 2234 2259
+type(
+  Type.t String.Map.t -> string -> Type.t option
+)
+ident(
+  ext_ref Core.String.Map.find
+)
+"src/code_examples.ml" 52 2234 2260 "src/code_examples.ml" 52 2234 2264
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref map2 "src/code_examples.ml" 44 1927 1933 "src/code_examples.ml" 44 1927 1937
+)
+"src/code_examples.ml" 52 2234 2265 "src/code_examples.ml" 52 2234 2266
+type(
+  string
+)
+ident(
+  int_ref k "src/code_examples.ml" 51 2194 2213 "src/code_examples.ml" 51 2194 2214
+)
+"src/code_examples.ml" 52 2234 2244 "src/code_examples.ml" 52 2234 2266
+call(
+  stack
+)
+type(
+  Type.t option
+)
+"src/code_examples.ml" 53 2272 2278 "src/code_examples.ml" 53 2272 2282
+type(
+  Type.t option
+)
+"src/code_examples.ml" 53 2272 2286 "src/code_examples.ml" 53 2272 2299
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format -> string -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 53 2272 2300 "src/code_examples.ml" 53 2272 2324
+type(
+  (string -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 53 2272 2325 "src/code_examples.ml" 53 2272 2326
+type(
+  string
+)
+ident(
+  int_ref k "src/code_examples.ml" 51 2194 2213 "src/code_examples.ml" 51 2194 2214
+)
+"src/code_examples.ml" 53 2272 2286 "src/code_examples.ml" 53 2272 2326
+call(
+  tail
+)
+type(
+  unit
+)
+"src/code_examples.ml" 54 2327 2338 "src/code_examples.ml" 54 2327 2340
+type(
+  Type.t
+)
+ident(
+  def ty "src/code_examples.ml" 54 2327 2345 "src/code_examples.ml" 54 2327 2393
+)
+"src/code_examples.ml" 54 2327 2333 "src/code_examples.ml" 54 2327 2340
+type(
+  Type.t option
+)
+"src/code_examples.ml" 54 2327 2345 "src/code_examples.ml" 54 2327 2358
+type(
+  (string -> string -> unit, Stdio.Out_channel.t, unit) Base.format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Core.Printf.printf
+)
+"src/code_examples.ml" 54 2327 2359 "src/code_examples.ml" 54 2327 2371
+type(
+  (string -> string -> unit, Stdio.Out_channel.t, unit) Base.format
+)
+"src/code_examples.ml" 54 2327 2372 "src/code_examples.ml" 54 2327 2373
+type(
+  string
+)
+ident(
+  int_ref k "src/code_examples.ml" 51 2194 2213 "src/code_examples.ml" 51 2194 2214
+)
+"src/code_examples.ml" 54 2327 2375 "src/code_examples.ml" 54 2327 2389
+type(
+  Type.t -> string
+)
+ident(
+  ext_ref Ast.Type.to_string
+)
+"src/code_examples.ml" 54 2327 2390 "src/code_examples.ml" 54 2327 2392
+type(
+  Type.t
+)
+ident(
+  int_ref ty "src/code_examples.ml" 54 2327 2338 "src/code_examples.ml" 54 2327 2340
+)
+"src/code_examples.ml" 54 2327 2374 "src/code_examples.ml" 54 2327 2393
+call(
+  stack
+)
+type(
+  string
+)
+"src/code_examples.ml" 54 2327 2345 "src/code_examples.ml" 54 2327 2393
+call(
+  tail
+)
+type(
+  unit
+)
+"src/code_examples.ml" 52 2234 2238 "src/code_examples.ml" 54 2327 2393
+type(
+  unit
+)
+type(
+  unit
+)
+"src/code_examples.ml" 57 2400 2402 "src/code_examples.ml" 57 2400 2413
+type(
+  string -> unit
+)
+ident(
+  int_ref print_value "src/code_examples.ml" 51 2194 2200 "src/code_examples.ml" 51 2194 2211
+)
+"src/code_examples.ml" 57 2400 2414 "src/code_examples.ml" 57 2400 2417
+type(
+  string
+)
+"src/code_examples.ml" 57 2400 2402 "src/code_examples.ml" 57 2400 2417
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 58 2419 2421 "src/code_examples.ml" 58 2419 2432
+type(
+  string -> unit
+)
+ident(
+  int_ref print_value "src/code_examples.ml" 51 2194 2200 "src/code_examples.ml" 51 2194 2211
+)
+"src/code_examples.ml" 58 2419 2433 "src/code_examples.ml" 58 2419 2436
+type(
+  string
+)
+"src/code_examples.ml" 58 2419 2421 "src/code_examples.ml" 58 2419 2436
+call(
+  tail
+)
+type(
+  unit
+)
+"src/code_examples.ml" 57 2400 2402 "src/code_examples.ml" 58 2419 2436
+type(
+  unit
+)
+"src/code_examples.ml" 51 2194 2196 "src/code_examples.ml" 58 2419 2436
+type(
+  unit
+)
+"src/code_examples.ml" 44 1927 1929 "src/code_examples.ml" 58 2419 2436
+type(
+  unit
+)
+"src/code_examples.ml" 39 1707 1709 "src/code_examples.ml" 58 2419 2436
+type(
+  unit
+)
+"src/code_examples.ml" 68 2891 2895 "src/code_examples.ml" 68 2891 2910
+type(
+  unit -> unit
+)
+ident(
+  def result_examples "src/code_examples.ml" 104 3910 3910 "src/code_examples.ml" 1 0 -1
+)
+"src/code_examples.ml" 68 2891 2911 "src/code_examples.ml" 68 2891 2913
+type(
+  unit
+)
+"src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  def try_div "src/code_examples.ml" 76 3130 3132 "src/code_examples.ml" 101 3903 3907
+)
+"src/code_examples.ml" 69 2916 2931 "src/code_examples.ml" 69 2916 2932
+type(
+  int
+)
+ident(
+  def n "src/code_examples.ml" 69 2916 2940 "src/code_examples.ml" 71 3013 3031
+)
+"src/code_examples.ml" 69 2916 2941 "src/code_examples.ml" 69 2916 2942
+type(
+  int
+)
+ident(
+  def m "src/code_examples.ml" 69 2916 2950 "src/code_examples.ml" 71 3013 3031
+)
+"src/code_examples.ml" 70 2977 2984 "src/code_examples.ml" 70 2977 2985
+type(
+  int
+)
+ident(
+  int_ref m "src/code_examples.ml" 69 2916 2941 "src/code_examples.ml" 69 2916 2942
+)
+"src/code_examples.ml" 70 2977 2986 "src/code_examples.ml" 70 2977 2987
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/code_examples.ml" 70 2977 2988 "src/code_examples.ml" 70 2977 2989
+type(
+  int
+)
+"src/code_examples.ml" 70 2977 2984 "src/code_examples.ml" 70 2977 2989
+type(
+  bool
+)
+"src/code_examples.ml" 70 2977 3000 "src/code_examples.ml" 70 2977 3012
+type(
+  string
+)
+"src/code_examples.ml" 70 2977 2995 "src/code_examples.ml" 70 2977 3012
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 71 3013 3025 "src/code_examples.ml" 71 3013 3026
+type(
+  int
+)
+ident(
+  int_ref n "src/code_examples.ml" 69 2916 2931 "src/code_examples.ml" 69 2916 2932
+)
+"src/code_examples.ml" 71 3013 3027 "src/code_examples.ml" 71 3013 3028
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Core.( / )
+)
+"src/code_examples.ml" 71 3013 3029 "src/code_examples.ml" 71 3013 3030
+type(
+  int
+)
+ident(
+  int_ref m "src/code_examples.ml" 69 2916 2941 "src/code_examples.ml" 69 2916 2942
+)
+"src/code_examples.ml" 71 3013 3024 "src/code_examples.ml" 71 3013 3031
+type(
+  int
+)
+"src/code_examples.ml" 71 3013 3022 "src/code_examples.ml" 71 3013 3031
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 70 2977 2981 "src/code_examples.ml" 71 3013 3031
+type(
+  (int, string) result
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 76 3130 3136 "src/code_examples.ml" 76 3130 3137
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 77 3140 3150 "src/code_examples.ml" 77 3140 3157
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  int_ref try_div "src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+)
+"src/code_examples.ml" 77 3140 3158 "src/code_examples.ml" 77 3140 3160
+type(
+  int
+)
+"src/code_examples.ml" 77 3140 3161 "src/code_examples.ml" 77 3140 3162
+type(
+  int
+)
+"src/code_examples.ml" 77 3140 3150 "src/code_examples.ml" 77 3140 3162
+call(
+  stack
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 78 3168 3177 "src/code_examples.ml" 78 3168 3179
+type(
+  int
+)
+ident(
+  def n1 "src/code_examples.ml" 79 3183 3189 "src/code_examples.ml" 84 3325 3353
+)
+"src/code_examples.ml" 78 3168 3174 "src/code_examples.ml" 78 3168 3179
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 79 3183 3196 "src/code_examples.ml" 79 3183 3203
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  int_ref try_div "src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+)
+"src/code_examples.ml" 79 3183 3204 "src/code_examples.ml" 79 3183 3206
+type(
+  int
+)
+ident(
+  int_ref n1 "src/code_examples.ml" 78 3168 3177 "src/code_examples.ml" 78 3168 3179
+)
+"src/code_examples.ml" 79 3183 3207 "src/code_examples.ml" 79 3183 3208
+type(
+  int
+)
+"src/code_examples.ml" 79 3183 3196 "src/code_examples.ml" 79 3183 3208
+call(
+  stack
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 80 3214 3226 "src/code_examples.ml" 80 3214 3228
+type(
+  int
+)
+ident(
+  def n2 "src/code_examples.ml" 81 3232 3241 "src/code_examples.ml" 83 3293 3324
+)
+"src/code_examples.ml" 80 3214 3223 "src/code_examples.ml" 80 3214 3228
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 81 3232 3248 "src/code_examples.ml" 81 3232 3255
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  int_ref try_div "src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+)
+"src/code_examples.ml" 81 3232 3256 "src/code_examples.ml" 81 3232 3258
+type(
+  int
+)
+ident(
+  int_ref n2 "src/code_examples.ml" 80 3214 3226 "src/code_examples.ml" 80 3214 3228
+)
+"src/code_examples.ml" 81 3232 3259 "src/code_examples.ml" 81 3232 3260
+type(
+  int
+)
+"src/code_examples.ml" 81 3232 3248 "src/code_examples.ml" 81 3232 3260
+call(
+  stack
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 82 3266 3281 "src/code_examples.ml" 82 3266 3283
+type(
+  int
+)
+ident(
+  def n3 "src/code_examples.ml" 82 3266 3287 "src/code_examples.ml" 82 3266 3292
+)
+"src/code_examples.ml" 82 3266 3278 "src/code_examples.ml" 82 3266 3283
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 82 3266 3290 "src/code_examples.ml" 82 3266 3292
+type(
+  int
+)
+ident(
+  int_ref n3 "src/code_examples.ml" 82 3266 3281 "src/code_examples.ml" 82 3266 3283
+)
+"src/code_examples.ml" 82 3266 3287 "src/code_examples.ml" 82 3266 3292
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 83 3293 3311 "src/code_examples.ml" 83 3293 3312
+type(
+  string
+)
+ident(
+  def s "src/code_examples.ml" 83 3293 3316 "src/code_examples.ml" 83 3293 3323
+)
+"src/code_examples.ml" 83 3293 3305 "src/code_examples.ml" 83 3293 3312
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 83 3293 3322 "src/code_examples.ml" 83 3293 3323
+type(
+  string
+)
+ident(
+  int_ref s "src/code_examples.ml" 83 3293 3311 "src/code_examples.ml" 83 3293 3312
+)
+"src/code_examples.ml" 83 3293 3316 "src/code_examples.ml" 83 3293 3323
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 81 3232 3241 "src/code_examples.ml" 83 3293 3324
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 84 3325 3340 "src/code_examples.ml" 84 3325 3341
+type(
+  string
+)
+ident(
+  def s "src/code_examples.ml" 84 3325 3345 "src/code_examples.ml" 84 3325 3352
+)
+"src/code_examples.ml" 84 3325 3334 "src/code_examples.ml" 84 3325 3341
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 84 3325 3351 "src/code_examples.ml" 84 3325 3352
+type(
+  string
+)
+ident(
+  int_ref s "src/code_examples.ml" 84 3325 3340 "src/code_examples.ml" 84 3325 3341
+)
+"src/code_examples.ml" 84 3325 3345 "src/code_examples.ml" 84 3325 3352
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 79 3183 3189 "src/code_examples.ml" 84 3325 3353
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 85 3354 3366 "src/code_examples.ml" 85 3354 3367
+type(
+  string
+)
+ident(
+  def s "src/code_examples.ml" 85 3354 3371 "src/code_examples.ml" 85 3354 3378
+)
+"src/code_examples.ml" 85 3354 3360 "src/code_examples.ml" 85 3354 3367
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 85 3354 3377 "src/code_examples.ml" 85 3354 3378
+type(
+  string
+)
+ident(
+  int_ref s "src/code_examples.ml" 85 3354 3366 "src/code_examples.ml" 85 3354 3367
+)
+"src/code_examples.ml" 85 3354 3371 "src/code_examples.ml" 85 3354 3378
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 77 3140 3144 "src/code_examples.ml" 85 3354 3378
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 89 3457 3463 "src/code_examples.ml" 89 3457 3464
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 90 3467 3471 "src/code_examples.ml" 90 3467 3478
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  int_ref try_div "src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+)
+"src/code_examples.ml" 90 3467 3479 "src/code_examples.ml" 90 3467 3481
+type(
+  int
+)
+"src/code_examples.ml" 90 3467 3482 "src/code_examples.ml" 90 3467 3483
+type(
+  int
+)
+"src/code_examples.ml" 90 3467 3471 "src/code_examples.ml" 90 3467 3483
+call(
+  stack
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 91 3484 3488 "src/code_examples.ml" 91 3484 3491
+type(
+  (int, string) result ->
+  (int -> (int, string) result) -> (int, string) result
+)
+ident(
+  ext_ref Core.Result.Monad_infix.( >>= )
+)
+"src/code_examples.ml" 91 3484 3496 "src/code_examples.ml" 91 3484 3498
+type(
+  int
+)
+ident(
+  def n1 "src/code_examples.ml" 91 3484 3502 "src/code_examples.ml" 92 3515 3545
+)
+"src/code_examples.ml" 91 3484 3502 "src/code_examples.ml" 91 3484 3509
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  int_ref try_div "src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+)
+"src/code_examples.ml" 91 3484 3510 "src/code_examples.ml" 91 3484 3512
+type(
+  int
+)
+ident(
+  int_ref n1 "src/code_examples.ml" 91 3484 3496 "src/code_examples.ml" 91 3484 3498
+)
+"src/code_examples.ml" 91 3484 3513 "src/code_examples.ml" 91 3484 3514
+type(
+  int
+)
+"src/code_examples.ml" 91 3484 3502 "src/code_examples.ml" 91 3484 3514
+call(
+  stack
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 92 3515 3519 "src/code_examples.ml" 92 3515 3522
+type(
+  (int, string) result ->
+  (int -> (int, string) result) -> (int, string) result
+)
+ident(
+  ext_ref Core.Result.Monad_infix.( >>= )
+)
+"src/code_examples.ml" 92 3515 3527 "src/code_examples.ml" 92 3515 3529
+type(
+  int
+)
+ident(
+  def n2 "src/code_examples.ml" 92 3515 3533 "src/code_examples.ml" 92 3515 3545
+)
+"src/code_examples.ml" 92 3515 3533 "src/code_examples.ml" 92 3515 3540
+type(
+  int -> int -> (int, string) result
+)
+ident(
+  int_ref try_div "src/code_examples.ml" 69 2916 2922 "src/code_examples.ml" 69 2916 2929
+)
+"src/code_examples.ml" 92 3515 3541 "src/code_examples.ml" 92 3515 3543
+type(
+  int
+)
+ident(
+  int_ref n2 "src/code_examples.ml" 92 3515 3527 "src/code_examples.ml" 92 3515 3529
+)
+"src/code_examples.ml" 92 3515 3544 "src/code_examples.ml" 92 3515 3545
+type(
+  int
+)
+"src/code_examples.ml" 92 3515 3533 "src/code_examples.ml" 92 3515 3545
+call(
+  tail
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 92 3515 3523 "src/code_examples.ml" 92 3515 3545
+type(
+  int -> (int, string) result
+)
+"src/code_examples.ml" 91 3484 3502 "src/code_examples.ml" 92 3515 3545
+call(
+  tail
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 91 3484 3492 "src/code_examples.ml" 92 3515 3545
+type(
+  int -> (int, string) result
+)
+"src/code_examples.ml" 90 3467 3471 "src/code_examples.ml" 92 3515 3545
+call(
+  stack
+)
+type(
+  (int, string) result
+)
+"src/code_examples.ml" 101 3903 3905 "src/code_examples.ml" 101 3903 3907
+type(
+  unit
+)
+"src/code_examples.ml" 89 3457 3459 "src/code_examples.ml" 101 3903 3907
+type(
+  unit
+)
+"src/code_examples.ml" 76 3130 3132 "src/code_examples.ml" 101 3903 3907
+type(
+  unit
+)
+"src/code_examples.ml" 69 2916 2918 "src/code_examples.ml" 101 3903 3907
+type(
+  unit
+)
+"src/code_examples.ml" 104 3910 3914 "src/code_examples.ml" 104 3910 3918
+type(
+  unit -> unit
+)
+ident(
+  def main "src/code_examples.ml" 109 3987 3987 "src/code_examples.ml" 1 0 -1
+)
+"src/code_examples.ml" 104 3910 3919 "src/code_examples.ml" 104 3910 3921
+type(
+  unit
+)
+"src/code_examples.ml" 105 3924 3926 "src/code_examples.ml" 105 3924 3941
+type(
+  unit -> unit
+)
+ident(
+  int_ref printf_examples "src/code_examples.ml" 7 141 145 "src/code_examples.ml" 7 141 160
+)
+"src/code_examples.ml" 105 3924 3942 "src/code_examples.ml" 105 3924 3944
+type(
+  unit
+)
+"src/code_examples.ml" 105 3924 3926 "src/code_examples.ml" 105 3924 3944
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 106 3946 3948 "src/code_examples.ml" 106 3946 3960
+type(
+  unit -> unit
+)
+ident(
+  int_ref map_examples "src/code_examples.ml" 38 1685 1689 "src/code_examples.ml" 38 1685 1701
+)
+"src/code_examples.ml" 106 3946 3961 "src/code_examples.ml" 106 3946 3963
+type(
+  unit
+)
+"src/code_examples.ml" 106 3946 3948 "src/code_examples.ml" 106 3946 3963
+call(
+  stack
+)
+type(
+  unit
+)
+"src/code_examples.ml" 107 3965 3967 "src/code_examples.ml" 107 3965 3982
+type(
+  unit -> unit
+)
+ident(
+  int_ref result_examples "src/code_examples.ml" 68 2891 2895 "src/code_examples.ml" 68 2891 2910
+)
+"src/code_examples.ml" 107 3965 3983 "src/code_examples.ml" 107 3965 3985
+type(
+  unit
+)
+"src/code_examples.ml" 107 3965 3967 "src/code_examples.ml" 107 3965 3985
+call(
+  tail
+)
+type(
+  unit
+)
+"src/code_examples.ml" 106 3946 3948 "src/code_examples.ml" 107 3965 3985
+type(
+  unit
+)
+"src/code_examples.ml" 105 3924 3926 "src/code_examples.ml" 107 3965 3985
+type(
+  unit
+)
+"src/code_examples.ml" 109 3987 3991 "src/code_examples.ml" 109 3987 3993
+type(
+  unit
+)
+"src/code_examples.ml" 109 3987 3996 "src/code_examples.ml" 109 3987 4000
+type(
+  unit -> unit
+)
+ident(
+  int_ref main "src/code_examples.ml" 104 3910 3914 "src/code_examples.ml" 104 3910 3918
+)
+"src/code_examples.ml" 109 3987 4001 "src/code_examples.ml" 109 3987 4003
+type(
+  unit
+)
+"src/code_examples.ml" 109 3987 3996 "src/code_examples.ml" 109 3987 4003
+call(
+  stack
+)
+type(
+  unit
+)

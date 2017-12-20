@@ -1,0 +1,25 @@
+{
+  "tests":[
+    {
+      "name": "basic",
+      "weight": 0.05
+    },
+    {
+      "name": "high_compute",
+      "weight": 0.35
+    },
+    {
+      "name": "imbalanced",
+      "weight": 0.25
+    },
+    {
+      "name": "many_groups",
+      "weight": 0.1
+    },
+    {
+      "name": "many_maps",
+      "weight": 0.25
+    }
+
+  ]
+}

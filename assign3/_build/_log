@@ -1,0 +1,18 @@
+### Starting build.
+# Target: src/code_examples.ml.depends, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, extension:ml, file:src/code_examples.ml, ocaml, ocamldep, quiet, short_paths, thread, traverse }
+ocamlfind ocamldep -package core -ppx 'ppx-jane -as-ppx' -modules src/code_examples.ml > src/code_examples.ml.depends # cached
+# Target: src/ast.mli.depends, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, extension:mli, file:src/ast.mli, ocaml, ocamldep, quiet, short_paths, thread, traverse }
+ocamlfind ocamldep -package core -ppx 'ppx-jane -as-ppx' -modules src/ast.mli > src/ast.mli.depends # cached
+# Target: src/ast.cmi, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, byte, compile, debug, extension:mli, file:src/ast.mli, interf, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/ast.cmi src/ast.mli # cached
+# Target: src/code_examples.cmo, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, byte, compile, debug, extension:cmo, extension:ml, file:src/code_examples.cmo, file:src/code_examples.ml, implem, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlc -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/code_examples.cmo src/code_examples.ml # cached
+# Target: src/ast.ml.depends, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, extension:ml, file:src/ast.ml, ocaml, ocamldep, quiet, short_paths, thread, traverse }
+ocamlfind ocamldep -package core -ppx 'ppx-jane -as-ppx' -modules src/ast.ml > src/ast.ml.depends # cached
+# Target: src/ast.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/ast.cmx, file:src/ast.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/ast.cmx src/ast.ml # cached
+# Target: src/code_examples.cmx, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, compile, debug, extension:cmx, extension:ml, file:src/code_examples.cmx, file:src/code_examples.ml, implem, native, ocaml, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -c -w A-4-33-40-41-42-43-34-44 -strict-sequence -g -annot -bin-annot -short-paths -thread -package core -ppx 'ppx-jane -as-ppx' -I src -o src/code_examples.cmx src/code_examples.ml # cached
+# Target: src/code_examples.native, tags: { package(core), ppx(ppx-jane -as-ppx), annot, bin_annot, debug, dont_link_with, extension:native, file:src/code_examples.native, link, native, ocaml, program, quiet, short_paths, thread, traverse }
+ocamlfind ocamlopt -linkpkg -g -thread -package core -I src src/ast.cmx src/code_examples.cmx -o src/code_examples.native # cached
+# Compilation successful.

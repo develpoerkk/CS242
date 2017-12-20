@@ -1,0 +1,4225 @@
+"src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  def typecheck_type "src/typechecker.ml" 8 113 113 "src/typechecker.ml" 1 0 -1
+)
+"src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+type(
+  String.Set.t
+)
+ident(
+  def tenv "src/typechecker.ml" 8 113 158 "src/typechecker.ml" 18 754 774
+)
+"src/typechecker.ml" 8 113 159 "src/typechecker.ml" 8 113 162
+type(
+  Type.t
+)
+ident(
+  def tau "src/typechecker.ml" 8 113 173 "src/typechecker.ml" 18 754 774
+)
+"src/typechecker.ml" 9 184 192 "src/typechecker.ml" 9 184 195
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/typechecker.ml" 8 113 159 "src/typechecker.ml" 8 113 162
+)
+"src/typechecker.ml" 10 201 215 "src/typechecker.ml" 10 201 216
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 11 220 225 "src/typechecker.ml" 12 252 325
+)
+"src/typechecker.ml" 10 201 206 "src/typechecker.ml" 10 201 216
+type(
+  Type.t
+)
+"src/typechecker.ml" 11 220 228 "src/typechecker.ml" 11 220 235
+type(
+  (string, String.comparator_witness) Set.t -> string -> bool
+)
+ident(
+  ext_ref Core.Set.mem
+)
+"src/typechecker.ml" 11 220 236 "src/typechecker.ml" 11 220 240
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 11 220 241 "src/typechecker.ml" 11 220 242
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 10 201 215 "src/typechecker.ml" 10 201 216
+)
+"src/typechecker.ml" 11 220 228 "src/typechecker.ml" 11 220 242
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 11 220 248 "src/typechecker.ml" 11 220 251
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/typechecker.ml" 8 113 159 "src/typechecker.ml" 8 113 162
+)
+"src/typechecker.ml" 12 252 262 "src/typechecker.ml" 12 252 267
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 12 252 280 "src/typechecker.ml" 12 252 294
+type(
+  (string -> string, unit, string) Base.format -> string -> string
+)
+ident(
+  ext_ref Core.Printf.sprintf
+)
+"src/typechecker.ml" 12 252 295 "src/typechecker.ml" 12 252 321
+type(
+  (string -> string, unit, string) Base.format
+)
+"src/typechecker.ml" 12 252 322 "src/typechecker.ml" 12 252 323
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 10 201 215 "src/typechecker.ml" 10 201 216
+)
+"src/typechecker.ml" 12 252 279 "src/typechecker.ml" 12 252 324
+call(
+  stack
+)
+type(
+  string
+)
+"src/typechecker.ml" 12 252 268 "src/typechecker.ml" 12 252 325
+type(
+  exn
+)
+"src/typechecker.ml" 12 252 262 "src/typechecker.ml" 12 252 325
+type(
+  Type.t
+)
+"src/typechecker.ml" 11 220 225 "src/typechecker.ml" 12 252 325
+type(
+  Type.t
+)
+"src/typechecker.ml" 13 326 345 "src/typechecker.ml" 13 326 347
+type(
+  Type.t
+)
+ident(
+  def t1 "src/typechecker.ml" 13 326 356 "src/typechecker.ml" 13 326 417
+)
+"src/typechecker.ml" 13 326 349 "src/typechecker.ml" 13 326 351
+type(
+  Type.t
+)
+ident(
+  def t2 "src/typechecker.ml" 13 326 356 "src/typechecker.ml" 13 326 417
+)
+"src/typechecker.ml" 13 326 331 "src/typechecker.ml" 13 326 352
+type(
+  Type.t
+)
+"src/typechecker.ml" 13 326 370 "src/typechecker.ml" 13 326 384
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 13 326 385 "src/typechecker.ml" 13 326 389
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 13 326 390 "src/typechecker.ml" 13 326 392
+type(
+  Type.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 13 326 345 "src/typechecker.ml" 13 326 347
+)
+"src/typechecker.ml" 13 326 370 "src/typechecker.ml" 13 326 392
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 13 326 394 "src/typechecker.ml" 13 326 408
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 13 326 409 "src/typechecker.ml" 13 326 413
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 13 326 414 "src/typechecker.ml" 13 326 416
+type(
+  Type.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 13 326 349 "src/typechecker.ml" 13 326 351
+)
+"src/typechecker.ml" 13 326 394 "src/typechecker.ml" 13 326 416
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 13 326 356 "src/typechecker.ml" 13 326 417
+type(
+  Type.t
+)
+"src/typechecker.ml" 14 418 433 "src/typechecker.ml" 14 418 435
+type(
+  Type.t
+)
+ident(
+  def t1 "src/typechecker.ml" 14 418 444 "src/typechecker.ml" 14 418 501
+)
+"src/typechecker.ml" 14 418 437 "src/typechecker.ml" 14 418 439
+type(
+  Type.t
+)
+ident(
+  def t2 "src/typechecker.ml" 14 418 444 "src/typechecker.ml" 14 418 501
+)
+"src/typechecker.ml" 14 418 423 "src/typechecker.ml" 14 418 440
+type(
+  Type.t
+)
+"src/typechecker.ml" 14 418 454 "src/typechecker.ml" 14 418 468
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 14 418 469 "src/typechecker.ml" 14 418 473
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 14 418 474 "src/typechecker.ml" 14 418 476
+type(
+  Type.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 14 418 433 "src/typechecker.ml" 14 418 435
+)
+"src/typechecker.ml" 14 418 454 "src/typechecker.ml" 14 418 476
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 14 418 478 "src/typechecker.ml" 14 418 492
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 14 418 493 "src/typechecker.ml" 14 418 497
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 14 418 498 "src/typechecker.ml" 14 418 500
+type(
+  Type.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 14 418 437 "src/typechecker.ml" 14 418 439
+)
+"src/typechecker.ml" 14 418 478 "src/typechecker.ml" 14 418 500
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 14 418 444 "src/typechecker.ml" 14 418 501
+type(
+  Type.t
+)
+"src/typechecker.ml" 15 502 516 "src/typechecker.ml" 15 502 518
+type(
+  Type.t
+)
+ident(
+  def t1 "src/typechecker.ml" 15 502 527 "src/typechecker.ml" 15 502 583
+)
+"src/typechecker.ml" 15 502 520 "src/typechecker.ml" 15 502 522
+type(
+  Type.t
+)
+ident(
+  def t2 "src/typechecker.ml" 15 502 527 "src/typechecker.ml" 15 502 583
+)
+"src/typechecker.ml" 15 502 507 "src/typechecker.ml" 15 502 523
+type(
+  Type.t
+)
+"src/typechecker.ml" 15 502 536 "src/typechecker.ml" 15 502 550
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 15 502 551 "src/typechecker.ml" 15 502 555
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 15 502 556 "src/typechecker.ml" 15 502 558
+type(
+  Type.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 15 502 516 "src/typechecker.ml" 15 502 518
+)
+"src/typechecker.ml" 15 502 536 "src/typechecker.ml" 15 502 558
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 15 502 560 "src/typechecker.ml" 15 502 574
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 15 502 575 "src/typechecker.ml" 15 502 579
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 15 502 580 "src/typechecker.ml" 15 502 582
+type(
+  Type.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 15 502 520 "src/typechecker.ml" 15 502 522
+)
+"src/typechecker.ml" 15 502 560 "src/typechecker.ml" 15 502 582
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 15 502 527 "src/typechecker.ml" 15 502 583
+type(
+  Type.t
+)
+"src/typechecker.ml" 16 584 601 "src/typechecker.ml" 16 584 602
+type(
+  string
+)
+ident(
+  def s "src/typechecker.ml" 16 584 611 "src/typechecker.ml" 16 584 668
+)
+"src/typechecker.ml" 16 584 604 "src/typechecker.ml" 16 584 606
+type(
+  Type.t
+)
+ident(
+  def t1 "src/typechecker.ml" 16 584 611 "src/typechecker.ml" 16 584 668
+)
+"src/typechecker.ml" 16 584 589 "src/typechecker.ml" 16 584 607
+type(
+  Type.t
+)
+"src/typechecker.ml" 16 584 623 "src/typechecker.ml" 16 584 624
+type(
+  string
+)
+ident(
+  int_ref s "src/typechecker.ml" 16 584 601 "src/typechecker.ml" 16 584 602
+)
+"src/typechecker.ml" 16 584 626 "src/typechecker.ml" 16 584 640
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 16 584 642 "src/typechecker.ml" 16 584 656
+type(
+  String.Set.t -> string -> String.Set.t
+)
+ident(
+  ext_ref Core.String.Set.add
+)
+"src/typechecker.ml" 16 584 657 "src/typechecker.ml" 16 584 661
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 16 584 662 "src/typechecker.ml" 16 584 663
+type(
+  string
+)
+ident(
+  int_ref s "src/typechecker.ml" 16 584 601 "src/typechecker.ml" 16 584 602
+)
+"src/typechecker.ml" 16 584 641 "src/typechecker.ml" 16 584 664
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/typechecker.ml" 16 584 665 "src/typechecker.ml" 16 584 667
+type(
+  Type.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 16 584 604 "src/typechecker.ml" 16 584 606
+)
+"src/typechecker.ml" 16 584 626 "src/typechecker.ml" 16 584 667
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 16 584 611 "src/typechecker.ml" 16 584 668
+type(
+  Type.t
+)
+"src/typechecker.ml" 17 669 686 "src/typechecker.ml" 17 669 687
+type(
+  string
+)
+ident(
+  def s "src/typechecker.ml" 17 669 696 "src/typechecker.ml" 17 669 753
+)
+"src/typechecker.ml" 17 669 689 "src/typechecker.ml" 17 669 691
+type(
+  Type.t
+)
+ident(
+  def t1 "src/typechecker.ml" 17 669 696 "src/typechecker.ml" 17 669 753
+)
+"src/typechecker.ml" 17 669 674 "src/typechecker.ml" 17 669 692
+type(
+  Type.t
+)
+"src/typechecker.ml" 17 669 708 "src/typechecker.ml" 17 669 709
+type(
+  string
+)
+ident(
+  int_ref s "src/typechecker.ml" 17 669 686 "src/typechecker.ml" 17 669 687
+)
+"src/typechecker.ml" 17 669 711 "src/typechecker.ml" 17 669 725
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 17 669 727 "src/typechecker.ml" 17 669 741
+type(
+  String.Set.t -> string -> String.Set.t
+)
+ident(
+  ext_ref Core.String.Set.add
+)
+"src/typechecker.ml" 17 669 742 "src/typechecker.ml" 17 669 746
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 8 113 137 "src/typechecker.ml" 8 113 141
+)
+"src/typechecker.ml" 17 669 747 "src/typechecker.ml" 17 669 748
+type(
+  string
+)
+ident(
+  int_ref s "src/typechecker.ml" 17 669 686 "src/typechecker.ml" 17 669 687
+)
+"src/typechecker.ml" 17 669 726 "src/typechecker.ml" 17 669 749
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/typechecker.ml" 17 669 750 "src/typechecker.ml" 17 669 752
+type(
+  Type.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 17 669 689 "src/typechecker.ml" 17 669 691
+)
+"src/typechecker.ml" 17 669 711 "src/typechecker.ml" 17 669 752
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 17 669 696 "src/typechecker.ml" 17 669 753
+type(
+  Type.t
+)
+"src/typechecker.ml" 18 754 759 "src/typechecker.ml" 18 754 767
+type(
+  Type.t
+)
+"src/typechecker.ml" 18 754 771 "src/typechecker.ml" 18 754 774
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/typechecker.ml" 8 113 159 "src/typechecker.ml" 8 113 162
+)
+"src/typechecker.ml" 9 184 186 "src/typechecker.ml" 18 754 774
+type(
+  Type.t
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  def typecheck_term "src/typechecker.ml" 29 1254 1254 "src/typechecker.ml" 1 0 -1
+)
+"src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+type(
+  String.Set.t
+)
+ident(
+  def tenv "src/typechecker.ml" 29 1254 1299 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+type(
+  Type.t String.Map.t
+)
+ident(
+  def env "src/typechecker.ml" 29 1254 1327 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 29 1254 1328 "src/typechecker.ml" 29 1254 1329
+type(
+  Term.t
+)
+ident(
+  def t "src/typechecker.ml" 29 1254 1340 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 30 1351 1359 "src/typechecker.ml" 30 1351 1360
+type(
+  Term.t
+)
+ident(
+  int_ref t "src/typechecker.ml" 29 1254 1328 "src/typechecker.ml" 29 1254 1329
+)
+"src/typechecker.ml" 31 1366 1379 "src/typechecker.ml" 31 1366 1380
+type(
+  int
+)
+"src/typechecker.ml" 31 1366 1370 "src/typechecker.ml" 31 1366 1380
+type(
+  Term.t
+)
+"src/typechecker.ml" 31 1366 1384 "src/typechecker.ml" 31 1366 1392
+type(
+  Type.t
+)
+"src/typechecker.ml" 33 1394 1407 "src/typechecker.ml" 33 1394 1408
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 33 1394 1412 "src/typechecker.ml" 37 1564 1569
+)
+"src/typechecker.ml" 33 1394 1398 "src/typechecker.ml" 33 1394 1408
+type(
+  Term.t
+)
+"src/typechecker.ml" 34 1414 1427 "src/typechecker.ml" 34 1414 1442
+type(
+  Type.t String.Map.t -> string -> Type.t option
+)
+ident(
+  ext_ref Core.String.Map.find
+)
+"src/typechecker.ml" 34 1414 1443 "src/typechecker.ml" 34 1414 1446
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 34 1414 1447 "src/typechecker.ml" 34 1414 1448
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 33 1394 1407 "src/typechecker.ml" 33 1394 1408
+)
+"src/typechecker.ml" 34 1414 1426 "src/typechecker.ml" 34 1414 1449
+call(
+  stack
+)
+type(
+  Type.t option
+)
+"src/typechecker.ml" 35 1455 1468 "src/typechecker.ml" 35 1455 1473
+type(
+  Type.t
+)
+ident(
+  def _type "src/typechecker.ml" 35 1455 1477 "src/typechecker.ml" 35 1455 1504
+)
+"src/typechecker.ml" 35 1455 1463 "src/typechecker.ml" 35 1455 1473
+type(
+  Type.t option
+)
+"src/typechecker.ml" 35 1455 1478 "src/typechecker.ml" 35 1455 1492
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 35 1455 1493 "src/typechecker.ml" 35 1455 1497
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 35 1455 1498 "src/typechecker.ml" 35 1455 1503
+type(
+  Type.t
+)
+ident(
+  int_ref _type "src/typechecker.ml" 35 1455 1468 "src/typechecker.ml" 35 1455 1473
+)
+"src/typechecker.ml" 35 1455 1477 "src/typechecker.ml" 35 1455 1504
+call(
+  tail
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 36 1506 1514 "src/typechecker.ml" 36 1506 1518
+type(
+  Type.t option
+)
+"src/typechecker.ml" 36 1506 1522 "src/typechecker.ml" 36 1506 1527
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 36 1506 1539 "src/typechecker.ml" 36 1506 1562
+type(
+  string
+)
+"src/typechecker.ml" 36 1506 1528 "src/typechecker.ml" 36 1506 1563
+type(
+  exn
+)
+"src/typechecker.ml" 36 1506 1522 "src/typechecker.ml" 36 1506 1563
+type(
+  Type.t
+)
+"src/typechecker.ml" 33 1394 1412 "src/typechecker.ml" 37 1564 1569
+type(
+  Type.t
+)
+"src/typechecker.ml" 39 1571 1585 "src/typechecker.ml" 39 1571 1586
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 39 1571 1606 "src/typechecker.ml" 43 1794 1799
+)
+"src/typechecker.ml" 39 1571 1588 "src/typechecker.ml" 39 1571 1595
+type(
+  Type.t
+)
+ident(
+  def arg_tau "src/typechecker.ml" 39 1571 1606 "src/typechecker.ml" 43 1794 1799
+)
+"src/typechecker.ml" 39 1571 1597 "src/typechecker.ml" 39 1571 1601
+type(
+  Term.t
+)
+ident(
+  def body "src/typechecker.ml" 39 1571 1606 "src/typechecker.ml" 43 1794 1799
+)
+"src/typechecker.ml" 39 1571 1575 "src/typechecker.ml" 39 1571 1602
+type(
+  Term.t
+)
+"src/typechecker.ml" 40 1608 1618 "src/typechecker.ml" 40 1608 1630
+type(
+  Type.t
+)
+ident(
+  def arg_tau_type "src/typechecker.ml" 41 1664 1670 "src/typechecker.ml" 42 1732 1793
+)
+"src/typechecker.ml" 40 1608 1633 "src/typechecker.ml" 40 1608 1647
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 40 1608 1648 "src/typechecker.ml" 40 1608 1652
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 40 1608 1653 "src/typechecker.ml" 40 1608 1660
+type(
+  Type.t
+)
+ident(
+  int_ref arg_tau "src/typechecker.ml" 39 1571 1588 "src/typechecker.ml" 39 1571 1595
+)
+"src/typechecker.ml" 40 1608 1633 "src/typechecker.ml" 40 1608 1660
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 41 1664 1674 "src/typechecker.ml" 41 1664 1681
+type(
+  Type.t String.Map.t
+)
+ident(
+  def new_map "src/typechecker.ml" 42 1732 1738 "src/typechecker.ml" 42 1732 1793
+)
+"src/typechecker.ml" 41 1664 1684 "src/typechecker.ml" 41 1664 1698
+type(
+  Type.t String.Map.t -> key:string -> data:Type.t -> Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.add
+)
+"src/typechecker.ml" 41 1664 1699 "src/typechecker.ml" 41 1664 1702
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 41 1664 1708 "src/typechecker.ml" 41 1664 1709
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 39 1571 1585 "src/typechecker.ml" 39 1571 1586
+)
+"src/typechecker.ml" 41 1664 1716 "src/typechecker.ml" 41 1664 1728
+type(
+  Type.t
+)
+ident(
+  int_ref arg_tau_type "src/typechecker.ml" 40 1608 1618 "src/typechecker.ml" 40 1608 1630
+)
+"src/typechecker.ml" 41 1664 1684 "src/typechecker.ml" 41 1664 1728
+call(
+  stack
+)
+type(
+  Type.t String.Map.t
+)
+"src/typechecker.ml" 42 1732 1746 "src/typechecker.ml" 42 1732 1758
+type(
+  Type.t
+)
+ident(
+  int_ref arg_tau_type "src/typechecker.ml" 40 1608 1618 "src/typechecker.ml" 40 1608 1630
+)
+"src/typechecker.ml" 42 1732 1760 "src/typechecker.ml" 42 1732 1774
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 42 1732 1775 "src/typechecker.ml" 42 1732 1779
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 42 1732 1780 "src/typechecker.ml" 42 1732 1787
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref new_map "src/typechecker.ml" 41 1664 1674 "src/typechecker.ml" 41 1664 1681
+)
+"src/typechecker.ml" 42 1732 1788 "src/typechecker.ml" 42 1732 1792
+type(
+  Term.t
+)
+ident(
+  int_ref body "src/typechecker.ml" 39 1571 1597 "src/typechecker.ml" 39 1571 1601
+)
+"src/typechecker.ml" 42 1732 1760 "src/typechecker.ml" 42 1732 1792
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 42 1732 1738 "src/typechecker.ml" 42 1732 1793
+type(
+  Type.t
+)
+"src/typechecker.ml" 41 1664 1670 "src/typechecker.ml" 42 1732 1793
+type(
+  Type.t
+)
+"src/typechecker.ml" 39 1571 1606 "src/typechecker.ml" 43 1794 1799
+type(
+  Type.t
+)
+"src/typechecker.ml" 45 1801 1815 "src/typechecker.ml" 45 1801 1817
+type(
+  Term.t
+)
+ident(
+  def fn "src/typechecker.ml" 45 1801 1827 "src/typechecker.ml" 54 2175 2180
+)
+"src/typechecker.ml" 45 1801 1819 "src/typechecker.ml" 45 1801 1822
+type(
+  Term.t
+)
+ident(
+  def arg "src/typechecker.ml" 45 1801 1827 "src/typechecker.ml" 54 2175 2180
+)
+"src/typechecker.ml" 45 1801 1805 "src/typechecker.ml" 45 1801 1823
+type(
+  Term.t
+)
+"src/typechecker.ml" 46 1829 1839 "src/typechecker.ml" 46 1829 1843
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typechecker.ml" 47 1876 1882 "src/typechecker.ml" 53 2120 2174
+)
+"src/typechecker.ml" 46 1829 1846 "src/typechecker.ml" 46 1829 1860
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 46 1829 1861 "src/typechecker.ml" 46 1829 1865
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 46 1829 1866 "src/typechecker.ml" 46 1829 1869
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 46 1829 1870 "src/typechecker.ml" 46 1829 1872
+type(
+  Term.t
+)
+ident(
+  int_ref fn "src/typechecker.ml" 45 1801 1815 "src/typechecker.ml" 45 1801 1817
+)
+"src/typechecker.ml" 46 1829 1846 "src/typechecker.ml" 46 1829 1872
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 47 1876 1886 "src/typechecker.ml" 47 1876 1890
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typechecker.ml" 48 1924 1930 "src/typechecker.ml" 53 2120 2174
+)
+"src/typechecker.ml" 47 1876 1893 "src/typechecker.ml" 47 1876 1907
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 47 1876 1908 "src/typechecker.ml" 47 1876 1912
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 47 1876 1913 "src/typechecker.ml" 47 1876 1916
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 47 1876 1917 "src/typechecker.ml" 47 1876 1920
+type(
+  Term.t
+)
+ident(
+  int_ref arg "src/typechecker.ml" 45 1801 1819 "src/typechecker.ml" 45 1801 1822
+)
+"src/typechecker.ml" 47 1876 1893 "src/typechecker.ml" 47 1876 1920
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 48 1924 1937 "src/typechecker.ml" 48 1924 1941
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typechecker.ml" 46 1829 1839 "src/typechecker.ml" 46 1829 1843
+)
+"src/typechecker.ml" 48 1924 1943 "src/typechecker.ml" 48 1924 1947
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 47 1876 1886 "src/typechecker.ml" 47 1876 1890
+)
+"src/typechecker.ml" 48 1924 1936 "src/typechecker.ml" 48 1924 1948
+type(
+  Type.t * Type.t
+)
+"src/typechecker.ml" 49 1954 1972 "src/typechecker.ml" 49 1954 1978
+type(
+  Type.t
+)
+ident(
+  def type_a "src/typechecker.ml" 49 1954 2000 "src/typechecker.ml" 52 2110 2119
+)
+"src/typechecker.ml" 49 1954 1980 "src/typechecker.ml" 49 1954 1986
+type(
+  Type.t
+)
+ident(
+  def type_b "src/typechecker.ml" 49 1954 2000 "src/typechecker.ml" 52 2110 2119
+)
+"src/typechecker.ml" 49 1954 1963 "src/typechecker.ml" 49 1954 1987
+type(
+  Type.t
+)
+"src/typechecker.ml" 49 1954 1989 "src/typechecker.ml" 49 1954 1995
+type(
+  Type.t
+)
+ident(
+  def type_c "src/typechecker.ml" 49 1954 2000 "src/typechecker.ml" 52 2110 2119
+)
+"src/typechecker.ml" 49 1954 1962 "src/typechecker.ml" 49 1954 1996
+type(
+  Type.t * Type.t
+)
+"src/typechecker.ml" 50 2002 2015 "src/typechecker.ml" 50 2002 2026
+type(
+  Type.t -> Type.t -> bool
+)
+ident(
+  ext_ref Ast.IR.Type.aequiv
+)
+"src/typechecker.ml" 50 2002 2027 "src/typechecker.ml" 50 2002 2033
+type(
+  Type.t
+)
+ident(
+  int_ref type_a "src/typechecker.ml" 49 1954 1972 "src/typechecker.ml" 49 1954 1978
+)
+"src/typechecker.ml" 50 2002 2034 "src/typechecker.ml" 50 2002 2040
+type(
+  Type.t
+)
+ident(
+  int_ref type_c "src/typechecker.ml" 49 1954 1989 "src/typechecker.ml" 49 1954 1995
+)
+"src/typechecker.ml" 50 2002 2015 "src/typechecker.ml" 50 2002 2040
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 50 2002 2046 "src/typechecker.ml" 50 2002 2052
+type(
+  Type.t
+)
+ident(
+  int_ref type_b "src/typechecker.ml" 49 1954 1980 "src/typechecker.ml" 49 1954 1986
+)
+"src/typechecker.ml" 51 2053 2068 "src/typechecker.ml" 51 2053 2073
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 51 2053 2085 "src/typechecker.ml" 51 2053 2108
+type(
+  string
+)
+"src/typechecker.ml" 51 2053 2074 "src/typechecker.ml" 51 2053 2109
+type(
+  exn
+)
+"src/typechecker.ml" 51 2053 2068 "src/typechecker.ml" 51 2053 2109
+type(
+  Type.t
+)
+"src/typechecker.ml" 49 1954 2000 "src/typechecker.ml" 52 2110 2119
+type(
+  Type.t
+)
+"src/typechecker.ml" 53 2120 2128 "src/typechecker.ml" 53 2120 2129
+type(
+  Type.t * Type.t
+)
+"src/typechecker.ml" 53 2120 2133 "src/typechecker.ml" 53 2120 2138
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 53 2120 2150 "src/typechecker.ml" 53 2120 2173
+type(
+  string
+)
+"src/typechecker.ml" 53 2120 2139 "src/typechecker.ml" 53 2120 2174
+type(
+  exn
+)
+"src/typechecker.ml" 53 2120 2133 "src/typechecker.ml" 53 2120 2174
+type(
+  Type.t
+)
+"src/typechecker.ml" 48 1924 1930 "src/typechecker.ml" 53 2120 2174
+type(
+  Type.t
+)
+"src/typechecker.ml" 47 1876 1882 "src/typechecker.ml" 53 2120 2174
+type(
+  Type.t
+)
+"src/typechecker.ml" 45 1801 1827 "src/typechecker.ml" 54 2175 2180
+type(
+  Type.t
+)
+"src/typechecker.ml" 56 2182 2198 "src/typechecker.ml" 56 2182 2199
+type(
+  Ast.binop
+)
+"src/typechecker.ml" 56 2182 2201 "src/typechecker.ml" 56 2182 2203
+type(
+  Term.t
+)
+ident(
+  def t1 "src/typechecker.ml" 56 2182 2212 "src/typechecker.ml" 62 2434 2439
+)
+"src/typechecker.ml" 56 2182 2205 "src/typechecker.ml" 56 2182 2207
+type(
+  Term.t
+)
+ident(
+  def t2 "src/typechecker.ml" 56 2182 2212 "src/typechecker.ml" 62 2434 2439
+)
+"src/typechecker.ml" 56 2182 2186 "src/typechecker.ml" 56 2182 2208
+type(
+  Term.t
+)
+"src/typechecker.ml" 57 2214 2224 "src/typechecker.ml" 57 2214 2228
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typechecker.ml" 58 2261 2267 "src/typechecker.ml" 61 2379 2433
+)
+"src/typechecker.ml" 57 2214 2231 "src/typechecker.ml" 57 2214 2245
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 57 2214 2246 "src/typechecker.ml" 57 2214 2250
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 57 2214 2251 "src/typechecker.ml" 57 2214 2254
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 57 2214 2255 "src/typechecker.ml" 57 2214 2257
+type(
+  Term.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 56 2182 2201 "src/typechecker.ml" 56 2182 2203
+)
+"src/typechecker.ml" 57 2214 2231 "src/typechecker.ml" 57 2214 2257
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 58 2261 2271 "src/typechecker.ml" 58 2261 2275
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typechecker.ml" 59 2308 2314 "src/typechecker.ml" 61 2379 2433
+)
+"src/typechecker.ml" 58 2261 2278 "src/typechecker.ml" 58 2261 2292
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 58 2261 2293 "src/typechecker.ml" 58 2261 2297
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 58 2261 2298 "src/typechecker.ml" 58 2261 2301
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 58 2261 2302 "src/typechecker.ml" 58 2261 2304
+type(
+  Term.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 56 2182 2205 "src/typechecker.ml" 56 2182 2207
+)
+"src/typechecker.ml" 58 2261 2278 "src/typechecker.ml" 58 2261 2304
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 59 2308 2321 "src/typechecker.ml" 59 2308 2325
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typechecker.ml" 57 2214 2224 "src/typechecker.ml" 57 2214 2228
+)
+"src/typechecker.ml" 59 2308 2327 "src/typechecker.ml" 59 2308 2331
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 58 2261 2271 "src/typechecker.ml" 58 2261 2275
+)
+"src/typechecker.ml" 59 2308 2320 "src/typechecker.ml" 59 2308 2332
+type(
+  Type.t * Type.t
+)
+"src/typechecker.ml" 60 2338 2347 "src/typechecker.ml" 60 2338 2355
+type(
+  Type.t
+)
+"src/typechecker.ml" 60 2338 2357 "src/typechecker.ml" 60 2338 2365
+type(
+  Type.t
+)
+"src/typechecker.ml" 60 2338 2346 "src/typechecker.ml" 60 2338 2366
+type(
+  Type.t * Type.t
+)
+"src/typechecker.ml" 60 2338 2370 "src/typechecker.ml" 60 2338 2378
+type(
+  Type.t
+)
+"src/typechecker.ml" 61 2379 2387 "src/typechecker.ml" 61 2379 2388
+type(
+  Type.t * Type.t
+)
+"src/typechecker.ml" 61 2379 2392 "src/typechecker.ml" 61 2379 2397
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 61 2379 2409 "src/typechecker.ml" 61 2379 2432
+type(
+  string
+)
+"src/typechecker.ml" 61 2379 2398 "src/typechecker.ml" 61 2379 2433
+type(
+  exn
+)
+"src/typechecker.ml" 61 2379 2392 "src/typechecker.ml" 61 2379 2433
+type(
+  Type.t
+)
+"src/typechecker.ml" 59 2308 2314 "src/typechecker.ml" 61 2379 2433
+type(
+  Type.t
+)
+"src/typechecker.ml" 58 2261 2267 "src/typechecker.ml" 61 2379 2433
+type(
+  Type.t
+)
+"src/typechecker.ml" 56 2182 2212 "src/typechecker.ml" 62 2434 2439
+type(
+  Type.t
+)
+"src/typechecker.ml" 64 2441 2457 "src/typechecker.ml" 64 2441 2459
+type(
+  Term.t
+)
+ident(
+  def t1 "src/typechecker.ml" 64 2441 2468 "src/typechecker.ml" 68 2618 2623
+)
+"src/typechecker.ml" 64 2441 2461 "src/typechecker.ml" 64 2441 2463
+type(
+  Term.t
+)
+ident(
+  def t2 "src/typechecker.ml" 64 2441 2468 "src/typechecker.ml" 68 2618 2623
+)
+"src/typechecker.ml" 64 2441 2445 "src/typechecker.ml" 64 2441 2464
+type(
+  Term.t
+)
+"src/typechecker.ml" 65 2470 2480 "src/typechecker.ml" 65 2470 2484
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typechecker.ml" 66 2517 2523 "src/typechecker.ml" 67 2564 2617
+)
+"src/typechecker.ml" 65 2470 2487 "src/typechecker.ml" 65 2470 2501
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 65 2470 2502 "src/typechecker.ml" 65 2470 2506
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 65 2470 2507 "src/typechecker.ml" 65 2470 2510
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 65 2470 2511 "src/typechecker.ml" 65 2470 2513
+type(
+  Term.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 64 2441 2457 "src/typechecker.ml" 64 2441 2459
+)
+"src/typechecker.ml" 65 2470 2487 "src/typechecker.ml" 65 2470 2513
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 66 2517 2527 "src/typechecker.ml" 66 2517 2531
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typechecker.ml" 67 2564 2570 "src/typechecker.ml" 67 2564 2617
+)
+"src/typechecker.ml" 66 2517 2534 "src/typechecker.ml" 66 2517 2548
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 66 2517 2549 "src/typechecker.ml" 66 2517 2553
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 66 2517 2554 "src/typechecker.ml" 66 2517 2557
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 66 2517 2558 "src/typechecker.ml" 66 2517 2560
+type(
+  Term.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 64 2441 2461 "src/typechecker.ml" 64 2441 2463
+)
+"src/typechecker.ml" 66 2517 2534 "src/typechecker.ml" 66 2517 2560
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 67 2564 2570 "src/typechecker.ml" 67 2564 2584
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 67 2564 2585 "src/typechecker.ml" 67 2564 2589
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 67 2564 2605 "src/typechecker.ml" 67 2564 2609
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typechecker.ml" 65 2470 2480 "src/typechecker.ml" 65 2470 2484
+)
+"src/typechecker.ml" 67 2564 2611 "src/typechecker.ml" 67 2564 2615
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 66 2517 2527 "src/typechecker.ml" 66 2517 2531
+)
+"src/typechecker.ml" 67 2564 2590 "src/typechecker.ml" 67 2564 2617
+type(
+  Type.t
+)
+"src/typechecker.ml" 67 2564 2570 "src/typechecker.ml" 67 2564 2617
+call(
+  tail
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 66 2517 2523 "src/typechecker.ml" 67 2564 2617
+type(
+  Type.t
+)
+"src/typechecker.ml" 64 2441 2468 "src/typechecker.ml" 68 2618 2623
+type(
+  Type.t
+)
+"src/typechecker.ml" 70 2625 2643 "src/typechecker.ml" 70 2625 2644
+type(
+  Term.t
+)
+ident(
+  def t "src/typechecker.ml" 70 2625 2654 "src/typechecker.ml" 80 2961 2966
+)
+"src/typechecker.ml" 70 2625 2646 "src/typechecker.ml" 70 2625 2649
+type(
+  Ast.direction
+)
+ident(
+  def dir "src/typechecker.ml" 70 2625 2654 "src/typechecker.ml" 80 2961 2966
+)
+"src/typechecker.ml" 70 2625 2629 "src/typechecker.ml" 70 2625 2650
+type(
+  Term.t
+)
+"src/typechecker.ml" 71 2656 2666 "src/typechecker.ml" 71 2656 2669
+type(
+  Type.t
+)
+ident(
+  def tau "src/typechecker.ml" 72 2701 2707 "src/typechecker.ml" 79 2906 2960
+)
+"src/typechecker.ml" 71 2656 2672 "src/typechecker.ml" 71 2656 2686
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 71 2656 2687 "src/typechecker.ml" 71 2656 2691
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 71 2656 2692 "src/typechecker.ml" 71 2656 2695
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 71 2656 2696 "src/typechecker.ml" 71 2656 2697
+type(
+  Term.t
+)
+ident(
+  int_ref t "src/typechecker.ml" 70 2625 2643 "src/typechecker.ml" 70 2625 2644
+)
+"src/typechecker.ml" 71 2656 2672 "src/typechecker.ml" 71 2656 2697
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 72 2701 2713 "src/typechecker.ml" 72 2701 2716
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/typechecker.ml" 71 2656 2666 "src/typechecker.ml" 71 2656 2669
+)
+"src/typechecker.ml" 73 2722 2744 "src/typechecker.ml" 73 2722 2748
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typechecker.ml" 73 2722 2759 "src/typechecker.ml" 78 2896 2905
+)
+"src/typechecker.ml" 73 2722 2750 "src/typechecker.ml" 73 2722 2754
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typechecker.ml" 73 2722 2759 "src/typechecker.ml" 78 2896 2905
+)
+"src/typechecker.ml" 73 2722 2730 "src/typechecker.ml" 73 2722 2755
+type(
+  Type.t
+)
+"src/typechecker.ml" 74 2761 2777 "src/typechecker.ml" 74 2761 2780
+type(
+  Ast.direction
+)
+ident(
+  int_ref dir "src/typechecker.ml" 70 2625 2646 "src/typechecker.ml" 70 2625 2649
+)
+"src/typechecker.ml" 75 2786 2798 "src/typechecker.ml" 75 2786 2802
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 75 2786 2806 "src/typechecker.ml" 75 2786 2810
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typechecker.ml" 73 2722 2744 "src/typechecker.ml" 73 2722 2748
+)
+"src/typechecker.ml" 76 2811 2823 "src/typechecker.ml" 76 2811 2828
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 76 2811 2832 "src/typechecker.ml" 76 2811 2836
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 73 2722 2750 "src/typechecker.ml" 73 2722 2754
+)
+"src/typechecker.ml" 77 2837 2849 "src/typechecker.ml" 77 2837 2850
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 77 2837 2854 "src/typechecker.ml" 77 2837 2859
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 77 2837 2871 "src/typechecker.ml" 77 2837 2894
+type(
+  string
+)
+"src/typechecker.ml" 77 2837 2860 "src/typechecker.ml" 77 2837 2895
+type(
+  exn
+)
+"src/typechecker.ml" 77 2837 2854 "src/typechecker.ml" 77 2837 2895
+type(
+  Type.t
+)
+"src/typechecker.ml" 73 2722 2759 "src/typechecker.ml" 78 2896 2905
+type(
+  Type.t
+)
+"src/typechecker.ml" 79 2906 2914 "src/typechecker.ml" 79 2906 2915
+type(
+  Type.t
+)
+"src/typechecker.ml" 79 2906 2919 "src/typechecker.ml" 79 2906 2924
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 79 2906 2936 "src/typechecker.ml" 79 2906 2959
+type(
+  string
+)
+"src/typechecker.ml" 79 2906 2925 "src/typechecker.ml" 79 2906 2960
+type(
+  exn
+)
+"src/typechecker.ml" 79 2906 2919 "src/typechecker.ml" 79 2906 2960
+type(
+  Type.t
+)
+"src/typechecker.ml" 72 2701 2707 "src/typechecker.ml" 79 2906 2960
+type(
+  Type.t
+)
+"src/typechecker.ml" 70 2625 2654 "src/typechecker.ml" 80 2961 2966
+type(
+  Type.t
+)
+"src/typechecker.ml" 82 2968 2985 "src/typechecker.ml" 82 2968 2988
+type(
+  Term.t
+)
+ident(
+  def arg "src/typechecker.ml" 82 2968 3007 "src/typechecker.ml" 98 3574 3579
+)
+"src/typechecker.ml" 82 2968 2990 "src/typechecker.ml" 82 2968 2993
+type(
+  Ast.direction
+)
+ident(
+  def dir "src/typechecker.ml" 82 2968 3007 "src/typechecker.ml" 98 3574 3579
+)
+"src/typechecker.ml" 82 2968 2995 "src/typechecker.ml" 82 2968 3002
+type(
+  Type.t
+)
+ident(
+  def sum_tau "src/typechecker.ml" 82 2968 3007 "src/typechecker.ml" 98 3574 3579
+)
+"src/typechecker.ml" 82 2968 2972 "src/typechecker.ml" 82 2968 3003
+type(
+  Term.t
+)
+"src/typechecker.ml" 83 3009 3019 "src/typechecker.ml" 83 3009 3022
+type(
+  Type.t
+)
+ident(
+  def tau "src/typechecker.ml" 84 3056 3062 "src/typechecker.ml" 97 3564 3573
+)
+"src/typechecker.ml" 83 3009 3025 "src/typechecker.ml" 83 3009 3039
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 83 3009 3040 "src/typechecker.ml" 83 3009 3044
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 83 3009 3045 "src/typechecker.ml" 83 3009 3048
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 83 3009 3049 "src/typechecker.ml" 83 3009 3052
+type(
+  Term.t
+)
+ident(
+  int_ref arg "src/typechecker.ml" 82 2968 2985 "src/typechecker.ml" 82 2968 2988
+)
+"src/typechecker.ml" 83 3009 3025 "src/typechecker.ml" 83 3009 3052
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 84 3056 3066 "src/typechecker.ml" 84 3056 3078
+type(
+  Type.t
+)
+ident(
+  def sum_tau_type "src/typechecker.ml" 85 3112 3118 "src/typechecker.ml" 97 3564 3573
+)
+"src/typechecker.ml" 84 3056 3081 "src/typechecker.ml" 84 3056 3095
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 84 3056 3096 "src/typechecker.ml" 84 3056 3100
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 84 3056 3101 "src/typechecker.ml" 84 3056 3108
+type(
+  Type.t
+)
+ident(
+  int_ref sum_tau "src/typechecker.ml" 82 2968 2995 "src/typechecker.ml" 82 2968 3002
+)
+"src/typechecker.ml" 84 3056 3081 "src/typechecker.ml" 84 3056 3108
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 85 3112 3124 "src/typechecker.ml" 85 3112 3136
+type(
+  Type.t
+)
+ident(
+  int_ref sum_tau_type "src/typechecker.ml" 84 3056 3066 "src/typechecker.ml" 84 3056 3078
+)
+"src/typechecker.ml" 86 3142 3155 "src/typechecker.ml" 86 3142 3159
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typechecker.ml" 86 3142 3170 "src/typechecker.ml" 97 3564 3573
+)
+"src/typechecker.ml" 86 3142 3161 "src/typechecker.ml" 86 3142 3165
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typechecker.ml" 86 3142 3170 "src/typechecker.ml" 97 3564 3573
+)
+"src/typechecker.ml" 86 3142 3150 "src/typechecker.ml" 86 3142 3166
+type(
+  Type.t
+)
+"src/typechecker.ml" 87 3172 3188 "src/typechecker.ml" 87 3172 3191
+type(
+  Ast.direction
+)
+ident(
+  int_ref dir "src/typechecker.ml" 82 2968 2990 "src/typechecker.ml" 82 2968 2993
+)
+"src/typechecker.ml" 88 3198 3210 "src/typechecker.ml" 88 3198 3214
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 89 3220 3237 "src/typechecker.ml" 89 3220 3248
+type(
+  Type.t -> Type.t -> bool
+)
+ident(
+  ext_ref Ast.IR.Type.aequiv
+)
+"src/typechecker.ml" 89 3220 3249 "src/typechecker.ml" 89 3220 3252
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/typechecker.ml" 83 3009 3019 "src/typechecker.ml" 83 3009 3022
+)
+"src/typechecker.ml" 89 3220 3253 "src/typechecker.ml" 89 3220 3257
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typechecker.ml" 86 3142 3155 "src/typechecker.ml" 86 3142 3159
+)
+"src/typechecker.ml" 89 3220 3237 "src/typechecker.ml" 89 3220 3257
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 89 3220 3263 "src/typechecker.ml" 89 3220 3275
+type(
+  Type.t
+)
+ident(
+  int_ref sum_tau_type "src/typechecker.ml" 84 3056 3066 "src/typechecker.ml" 84 3056 3078
+)
+"src/typechecker.ml" 90 3276 3295 "src/typechecker.ml" 90 3276 3300
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 90 3276 3312 "src/typechecker.ml" 90 3276 3335
+type(
+  string
+)
+"src/typechecker.ml" 90 3276 3301 "src/typechecker.ml" 90 3276 3336
+type(
+  exn
+)
+"src/typechecker.ml" 90 3276 3295 "src/typechecker.ml" 90 3276 3336
+type(
+  Type.t
+)
+"src/typechecker.ml" 88 3198 3218 "src/typechecker.ml" 91 3337 3350
+type(
+  Type.t
+)
+"src/typechecker.ml" 92 3351 3363 "src/typechecker.ml" 92 3351 3368
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 93 3374 3391 "src/typechecker.ml" 93 3374 3402
+type(
+  Type.t -> Type.t -> bool
+)
+ident(
+  ext_ref Ast.IR.Type.aequiv
+)
+"src/typechecker.ml" 93 3374 3403 "src/typechecker.ml" 93 3374 3406
+type(
+  Type.t
+)
+ident(
+  int_ref tau "src/typechecker.ml" 83 3009 3019 "src/typechecker.ml" 83 3009 3022
+)
+"src/typechecker.ml" 93 3374 3407 "src/typechecker.ml" 93 3374 3411
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 86 3142 3161 "src/typechecker.ml" 86 3142 3165
+)
+"src/typechecker.ml" 93 3374 3391 "src/typechecker.ml" 93 3374 3411
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 93 3374 3417 "src/typechecker.ml" 93 3374 3429
+type(
+  Type.t
+)
+ident(
+  int_ref sum_tau_type "src/typechecker.ml" 84 3056 3066 "src/typechecker.ml" 84 3056 3078
+)
+"src/typechecker.ml" 94 3430 3449 "src/typechecker.ml" 94 3430 3454
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 94 3430 3466 "src/typechecker.ml" 94 3430 3489
+type(
+  string
+)
+"src/typechecker.ml" 94 3430 3455 "src/typechecker.ml" 94 3430 3490
+type(
+  exn
+)
+"src/typechecker.ml" 94 3430 3449 "src/typechecker.ml" 94 3430 3490
+type(
+  Type.t
+)
+"src/typechecker.ml" 92 3351 3372 "src/typechecker.ml" 95 3491 3504
+type(
+  Type.t
+)
+"src/typechecker.ml" 96 3505 3517 "src/typechecker.ml" 96 3505 3518
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 96 3505 3522 "src/typechecker.ml" 96 3505 3527
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 96 3505 3539 "src/typechecker.ml" 96 3505 3562
+type(
+  string
+)
+"src/typechecker.ml" 96 3505 3528 "src/typechecker.ml" 96 3505 3563
+type(
+  exn
+)
+"src/typechecker.ml" 96 3505 3522 "src/typechecker.ml" 96 3505 3563
+type(
+  Type.t
+)
+"src/typechecker.ml" 86 3142 3170 "src/typechecker.ml" 97 3564 3573
+type(
+  Type.t
+)
+"src/typechecker.ml" 85 3112 3118 "src/typechecker.ml" 97 3564 3573
+type(
+  Type.t
+)
+"src/typechecker.ml" 84 3056 3062 "src/typechecker.ml" 97 3564 3573
+type(
+  Type.t
+)
+"src/typechecker.ml" 82 2968 3007 "src/typechecker.ml" 98 3574 3579
+type(
+  Type.t
+)
+"src/typechecker.ml" 100 3581 3596 "src/typechecker.ml" 100 3581 3602
+type(
+  Term.t
+)
+ident(
+  def switch "src/typechecker.ml" 100 3581 3627 "src/typechecker.ml" 110 4155 4160
+)
+"src/typechecker.ml" 100 3581 3605 "src/typechecker.ml" 100 3581 3607
+type(
+  string
+)
+ident(
+  def x1 "src/typechecker.ml" 100 3581 3627 "src/typechecker.ml" 110 4155 4160
+)
+"src/typechecker.ml" 100 3581 3609 "src/typechecker.ml" 100 3581 3611
+type(
+  Term.t
+)
+ident(
+  def t1 "src/typechecker.ml" 100 3581 3627 "src/typechecker.ml" 110 4155 4160
+)
+"src/typechecker.ml" 100 3581 3604 "src/typechecker.ml" 100 3581 3612
+type(
+  string * Term.t
+)
+"src/typechecker.ml" 100 3581 3615 "src/typechecker.ml" 100 3581 3617
+type(
+  string
+)
+ident(
+  def x2 "src/typechecker.ml" 100 3581 3627 "src/typechecker.ml" 110 4155 4160
+)
+"src/typechecker.ml" 100 3581 3619 "src/typechecker.ml" 100 3581 3621
+type(
+  Term.t
+)
+ident(
+  def t2 "src/typechecker.ml" 100 3581 3627 "src/typechecker.ml" 110 4155 4160
+)
+"src/typechecker.ml" 100 3581 3614 "src/typechecker.ml" 100 3581 3622
+type(
+  string * Term.t
+)
+"src/typechecker.ml" 100 3581 3585 "src/typechecker.ml" 100 3581 3623
+type(
+  Term.t
+)
+"src/typechecker.ml" 101 3629 3639 "src/typechecker.ml" 101 3629 3650
+type(
+  Type.t
+)
+ident(
+  def switch_type "src/typechecker.ml" 102 3687 3693 "src/typechecker.ml" 109 4100 4154
+)
+"src/typechecker.ml" 101 3629 3653 "src/typechecker.ml" 101 3629 3667
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 101 3629 3668 "src/typechecker.ml" 101 3629 3672
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 101 3629 3673 "src/typechecker.ml" 101 3629 3676
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 101 3629 3677 "src/typechecker.ml" 101 3629 3683
+type(
+  Term.t
+)
+ident(
+  int_ref switch "src/typechecker.ml" 100 3581 3596 "src/typechecker.ml" 100 3581 3602
+)
+"src/typechecker.ml" 101 3629 3653 "src/typechecker.ml" 101 3629 3683
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 102 3687 3699 "src/typechecker.ml" 102 3687 3710
+type(
+  Type.t
+)
+ident(
+  int_ref switch_type "src/typechecker.ml" 101 3629 3639 "src/typechecker.ml" 101 3629 3650
+)
+"src/typechecker.ml" 103 3716 3734 "src/typechecker.ml" 103 3716 3739
+type(
+  Type.t
+)
+ident(
+  def type1 "src/typechecker.ml" 103 3716 3751 "src/typechecker.ml" 108 4090 4099
+)
+"src/typechecker.ml" 103 3716 3741 "src/typechecker.ml" 103 3716 3746
+type(
+  Type.t
+)
+ident(
+  def type2 "src/typechecker.ml" 103 3716 3751 "src/typechecker.ml" 108 4090 4099
+)
+"src/typechecker.ml" 103 3716 3724 "src/typechecker.ml" 103 3716 3747
+type(
+  Type.t
+)
+"src/typechecker.ml" 104 3753 3767 "src/typechecker.ml" 104 3753 3774
+type(
+  Type.t
+)
+ident(
+  def t1_type "src/typechecker.ml" 105 3866 3876 "src/typechecker.ml" 107 4033 4089
+)
+"src/typechecker.ml" 104 3753 3777 "src/typechecker.ml" 104 3753 3791
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 104 3753 3792 "src/typechecker.ml" 104 3753 3796
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 104 3753 3798 "src/typechecker.ml" 104 3753 3812
+type(
+  Type.t String.Map.t -> key:string -> data:Type.t -> Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.add
+)
+"src/typechecker.ml" 104 3753 3813 "src/typechecker.ml" 104 3753 3816
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 104 3753 3822 "src/typechecker.ml" 104 3753 3824
+type(
+  string
+)
+ident(
+  int_ref x1 "src/typechecker.ml" 100 3581 3605 "src/typechecker.ml" 100 3581 3607
+)
+"src/typechecker.ml" 104 3753 3832 "src/typechecker.ml" 104 3753 3846
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 104 3753 3847 "src/typechecker.ml" 104 3753 3851
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 104 3753 3852 "src/typechecker.ml" 104 3753 3857
+type(
+  Type.t
+)
+ident(
+  int_ref type1 "src/typechecker.ml" 103 3716 3734 "src/typechecker.ml" 103 3716 3739
+)
+"src/typechecker.ml" 104 3753 3831 "src/typechecker.ml" 104 3753 3858
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 104 3753 3797 "src/typechecker.ml" 104 3753 3859
+call(
+  stack
+)
+type(
+  Type.t String.Map.t
+)
+"src/typechecker.ml" 104 3753 3860 "src/typechecker.ml" 104 3753 3862
+type(
+  Term.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 100 3581 3609 "src/typechecker.ml" 100 3581 3611
+)
+"src/typechecker.ml" 104 3753 3777 "src/typechecker.ml" 104 3753 3862
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 105 3866 3880 "src/typechecker.ml" 105 3866 3887
+type(
+  Type.t
+)
+ident(
+  def t2_type "src/typechecker.ml" 106 3979 3989 "src/typechecker.ml" 107 4033 4089
+)
+"src/typechecker.ml" 105 3866 3890 "src/typechecker.ml" 105 3866 3904
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 105 3866 3905 "src/typechecker.ml" 105 3866 3909
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 105 3866 3911 "src/typechecker.ml" 105 3866 3925
+type(
+  Type.t String.Map.t -> key:string -> data:Type.t -> Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.add
+)
+"src/typechecker.ml" 105 3866 3926 "src/typechecker.ml" 105 3866 3929
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 105 3866 3935 "src/typechecker.ml" 105 3866 3937
+type(
+  string
+)
+ident(
+  int_ref x2 "src/typechecker.ml" 100 3581 3615 "src/typechecker.ml" 100 3581 3617
+)
+"src/typechecker.ml" 105 3866 3945 "src/typechecker.ml" 105 3866 3959
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 105 3866 3960 "src/typechecker.ml" 105 3866 3964
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 105 3866 3965 "src/typechecker.ml" 105 3866 3970
+type(
+  Type.t
+)
+ident(
+  int_ref type2 "src/typechecker.ml" 103 3716 3741 "src/typechecker.ml" 103 3716 3746
+)
+"src/typechecker.ml" 105 3866 3944 "src/typechecker.ml" 105 3866 3971
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 105 3866 3910 "src/typechecker.ml" 105 3866 3972
+call(
+  stack
+)
+type(
+  Type.t String.Map.t
+)
+"src/typechecker.ml" 105 3866 3973 "src/typechecker.ml" 105 3866 3975
+type(
+  Term.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 100 3581 3619 "src/typechecker.ml" 100 3581 3621
+)
+"src/typechecker.ml" 105 3866 3890 "src/typechecker.ml" 105 3866 3975
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 106 3979 3992 "src/typechecker.ml" 106 3979 4003
+type(
+  Type.t -> Type.t -> bool
+)
+ident(
+  ext_ref Ast.IR.Type.aequiv
+)
+"src/typechecker.ml" 106 3979 4004 "src/typechecker.ml" 106 3979 4011
+type(
+  Type.t
+)
+ident(
+  int_ref t1_type "src/typechecker.ml" 104 3753 3767 "src/typechecker.ml" 104 3753 3774
+)
+"src/typechecker.ml" 106 3979 4012 "src/typechecker.ml" 106 3979 4019
+type(
+  Type.t
+)
+ident(
+  int_ref t2_type "src/typechecker.ml" 105 3866 3880 "src/typechecker.ml" 105 3866 3887
+)
+"src/typechecker.ml" 106 3979 3992 "src/typechecker.ml" 106 3979 4019
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 106 3979 4025 "src/typechecker.ml" 106 3979 4032
+type(
+  Type.t
+)
+ident(
+  int_ref t1_type "src/typechecker.ml" 104 3753 3767 "src/typechecker.ml" 104 3753 3774
+)
+"src/typechecker.ml" 107 4033 4048 "src/typechecker.ml" 107 4033 4053
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 107 4033 4065 "src/typechecker.ml" 107 4033 4088
+type(
+  string
+)
+"src/typechecker.ml" 107 4033 4054 "src/typechecker.ml" 107 4033 4089
+type(
+  exn
+)
+"src/typechecker.ml" 107 4033 4048 "src/typechecker.ml" 107 4033 4089
+type(
+  Type.t
+)
+"src/typechecker.ml" 106 3979 3989 "src/typechecker.ml" 107 4033 4089
+type(
+  Type.t
+)
+"src/typechecker.ml" 105 3866 3876 "src/typechecker.ml" 107 4033 4089
+type(
+  Type.t
+)
+"src/typechecker.ml" 103 3716 3751 "src/typechecker.ml" 108 4090 4099
+type(
+  Type.t
+)
+"src/typechecker.ml" 109 4100 4108 "src/typechecker.ml" 109 4100 4109
+type(
+  Type.t
+)
+"src/typechecker.ml" 109 4100 4113 "src/typechecker.ml" 109 4100 4118
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 109 4100 4130 "src/typechecker.ml" 109 4100 4153
+type(
+  string
+)
+"src/typechecker.ml" 109 4100 4119 "src/typechecker.ml" 109 4100 4154
+type(
+  exn
+)
+"src/typechecker.ml" 109 4100 4113 "src/typechecker.ml" 109 4100 4154
+type(
+  Type.t
+)
+"src/typechecker.ml" 102 3687 3693 "src/typechecker.ml" 109 4100 4154
+type(
+  Type.t
+)
+"src/typechecker.ml" 100 3581 3627 "src/typechecker.ml" 110 4155 4160
+type(
+  Type.t
+)
+"src/typechecker.ml" 112 4162 4177 "src/typechecker.ml" 112 4162 4178
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 112 4162 4186 "src/typechecker.ml" 115 4291 4296
+)
+"src/typechecker.ml" 112 4162 4180 "src/typechecker.ml" 112 4162 4181
+type(
+  Term.t
+)
+ident(
+  def t "src/typechecker.ml" 112 4162 4186 "src/typechecker.ml" 115 4291 4296
+)
+"src/typechecker.ml" 112 4162 4166 "src/typechecker.ml" 112 4162 4182
+type(
+  Term.t
+)
+"src/typechecker.ml" 113 4188 4200 "src/typechecker.ml" 113 4188 4208
+type(
+  String.Set.t
+)
+ident(
+  def new_tenv "src/typechecker.ml" 114 4236 4244 "src/typechecker.ml" 114 4236 4290
+)
+"src/typechecker.ml" 113 4188 4211 "src/typechecker.ml" 113 4188 4225
+type(
+  String.Set.t -> string -> String.Set.t
+)
+ident(
+  ext_ref Core.String.Set.add
+)
+"src/typechecker.ml" 113 4188 4226 "src/typechecker.ml" 113 4188 4230
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 113 4188 4231 "src/typechecker.ml" 113 4188 4232
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 112 4162 4177 "src/typechecker.ml" 112 4162 4178
+)
+"src/typechecker.ml" 113 4188 4211 "src/typechecker.ml" 113 4188 4232
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/typechecker.ml" 114 4236 4257 "src/typechecker.ml" 114 4236 4258
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 112 4162 4177 "src/typechecker.ml" 112 4162 4178
+)
+"src/typechecker.ml" 114 4236 4260 "src/typechecker.ml" 114 4236 4274
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 114 4236 4275 "src/typechecker.ml" 114 4236 4283
+type(
+  String.Set.t
+)
+ident(
+  int_ref new_tenv "src/typechecker.ml" 113 4188 4200 "src/typechecker.ml" 113 4188 4208
+)
+"src/typechecker.ml" 114 4236 4284 "src/typechecker.ml" 114 4236 4287
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 114 4236 4288 "src/typechecker.ml" 114 4236 4289
+type(
+  Term.t
+)
+ident(
+  int_ref t "src/typechecker.ml" 112 4162 4180 "src/typechecker.ml" 112 4162 4181
+)
+"src/typechecker.ml" 114 4236 4260 "src/typechecker.ml" 114 4236 4289
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 114 4236 4244 "src/typechecker.ml" 114 4236 4290
+type(
+  Type.t
+)
+"src/typechecker.ml" 112 4162 4186 "src/typechecker.ml" 115 4291 4296
+type(
+  Type.t
+)
+"src/typechecker.ml" 117 4298 4313 "src/typechecker.ml" 117 4298 4314
+type(
+  Term.t
+)
+ident(
+  def t "src/typechecker.ml" 117 4298 4328 "src/typechecker.ml" 126 4679 4684
+)
+"src/typechecker.ml" 117 4298 4316 "src/typechecker.ml" 117 4298 4323
+type(
+  Type.t
+)
+ident(
+  def arg_tau "src/typechecker.ml" 117 4298 4328 "src/typechecker.ml" 126 4679 4684
+)
+"src/typechecker.ml" 117 4298 4302 "src/typechecker.ml" 117 4298 4324
+type(
+  Term.t
+)
+"src/typechecker.ml" 118 4330 4342 "src/typechecker.ml" 118 4330 4348
+type(
+  Type.t
+)
+ident(
+  def t_type "src/typechecker.ml" 119 4380 4388 "src/typechecker.ml" 125 4622 4678
+)
+"src/typechecker.ml" 118 4330 4351 "src/typechecker.ml" 118 4330 4365
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 118 4330 4366 "src/typechecker.ml" 118 4330 4370
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 118 4330 4371 "src/typechecker.ml" 118 4330 4374
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 118 4330 4375 "src/typechecker.ml" 118 4330 4376
+type(
+  Term.t
+)
+ident(
+  int_ref t "src/typechecker.ml" 117 4298 4313 "src/typechecker.ml" 117 4298 4314
+)
+"src/typechecker.ml" 118 4330 4351 "src/typechecker.ml" 118 4330 4376
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 119 4380 4394 "src/typechecker.ml" 119 4380 4400
+type(
+  Type.t
+)
+ident(
+  int_ref t_type "src/typechecker.ml" 118 4330 4342 "src/typechecker.ml" 118 4330 4348
+)
+"src/typechecker.ml" 120 4406 4429 "src/typechecker.ml" 120 4406 4430
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 120 4406 4444 "src/typechecker.ml" 124 4610 4621
+)
+"src/typechecker.ml" 120 4406 4432 "src/typechecker.ml" 120 4406 4439
+type(
+  Type.t
+)
+ident(
+  def t1_type "src/typechecker.ml" 120 4406 4444 "src/typechecker.ml" 124 4610 4621
+)
+"src/typechecker.ml" 120 4406 4416 "src/typechecker.ml" 120 4406 4440
+type(
+  Type.t
+)
+"src/typechecker.ml" 121 4446 4462 "src/typechecker.ml" 121 4446 4473
+type(
+  Type.t
+)
+ident(
+  def new_arg_tau "src/typechecker.ml" 122 4507 4519 "src/typechecker.ml" 123 4572 4609
+)
+"src/typechecker.ml" 121 4446 4476 "src/typechecker.ml" 121 4446 4490
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 121 4446 4491 "src/typechecker.ml" 121 4446 4495
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 121 4446 4496 "src/typechecker.ml" 121 4446 4503
+type(
+  Type.t
+)
+ident(
+  int_ref arg_tau "src/typechecker.ml" 117 4298 4316 "src/typechecker.ml" 117 4298 4323
+)
+"src/typechecker.ml" 121 4446 4476 "src/typechecker.ml" 121 4446 4503
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 122 4507 4523 "src/typechecker.ml" 122 4507 4528
+type(
+  Type.t
+)
+ident(
+  def _type "src/typechecker.ml" 123 4572 4584 "src/typechecker.ml" 123 4572 4609
+)
+"src/typechecker.ml" 122 4507 4531 "src/typechecker.ml" 122 4507 4546
+type(
+  string -> Type.t -> Type.t -> Type.t
+)
+ident(
+  ext_ref Ast.IR.Type.substitute
+)
+"src/typechecker.ml" 122 4507 4547 "src/typechecker.ml" 122 4507 4548
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 120 4406 4429 "src/typechecker.ml" 120 4406 4430
+)
+"src/typechecker.ml" 122 4507 4549 "src/typechecker.ml" 122 4507 4560
+type(
+  Type.t
+)
+ident(
+  int_ref new_arg_tau "src/typechecker.ml" 121 4446 4462 "src/typechecker.ml" 121 4446 4473
+)
+"src/typechecker.ml" 122 4507 4561 "src/typechecker.ml" 122 4507 4568
+type(
+  Type.t
+)
+ident(
+  int_ref t1_type "src/typechecker.ml" 120 4406 4432 "src/typechecker.ml" 120 4406 4439
+)
+"src/typechecker.ml" 122 4507 4531 "src/typechecker.ml" 122 4507 4568
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 123 4572 4584 "src/typechecker.ml" 123 4572 4598
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 123 4572 4599 "src/typechecker.ml" 123 4572 4603
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 123 4572 4604 "src/typechecker.ml" 123 4572 4609
+type(
+  Type.t
+)
+ident(
+  int_ref _type "src/typechecker.ml" 122 4507 4523 "src/typechecker.ml" 122 4507 4528
+)
+"src/typechecker.ml" 123 4572 4584 "src/typechecker.ml" 123 4572 4609
+call(
+  tail
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 122 4507 4519 "src/typechecker.ml" 123 4572 4609
+type(
+  Type.t
+)
+"src/typechecker.ml" 120 4406 4444 "src/typechecker.ml" 124 4610 4621
+type(
+  Type.t
+)
+"src/typechecker.ml" 125 4622 4632 "src/typechecker.ml" 125 4622 4633
+type(
+  Type.t
+)
+"src/typechecker.ml" 125 4622 4637 "src/typechecker.ml" 125 4622 4642
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 125 4622 4654 "src/typechecker.ml" 125 4622 4677
+type(
+  string
+)
+"src/typechecker.ml" 125 4622 4643 "src/typechecker.ml" 125 4622 4678
+type(
+  exn
+)
+"src/typechecker.ml" 125 4622 4637 "src/typechecker.ml" 125 4622 4678
+type(
+  Type.t
+)
+"src/typechecker.ml" 119 4380 4388 "src/typechecker.ml" 125 4622 4678
+type(
+  Type.t
+)
+"src/typechecker.ml" 117 4298 4328 "src/typechecker.ml" 126 4679 4684
+type(
+  Type.t
+)
+"src/typechecker.ml" 128 4686 4702 "src/typechecker.ml" 128 4686 4716
+type(
+  Type.t
+)
+ident(
+  def abstracted_tau "src/typechecker.ml" 128 4686 4742 "src/typechecker.ml" 139 5237 5242
+)
+"src/typechecker.ml" 128 4686 4718 "src/typechecker.ml" 128 4686 4719
+type(
+  Term.t
+)
+ident(
+  def t "src/typechecker.ml" 128 4686 4742 "src/typechecker.ml" 139 5237 5242
+)
+"src/typechecker.ml" 128 4686 4721 "src/typechecker.ml" 128 4686 4737
+type(
+  Type.t
+)
+ident(
+  def existential_type "src/typechecker.ml" 128 4686 4742 "src/typechecker.ml" 139 5237 5242
+)
+"src/typechecker.ml" 128 4686 4690 "src/typechecker.ml" 128 4686 4738
+type(
+  Term.t
+)
+"src/typechecker.ml" 129 4744 4754 "src/typechecker.ml" 129 4744 4760
+type(
+  Type.t
+)
+ident(
+  def e_type "src/typechecker.ml" 130 4803 4809 "src/typechecker.ml" 138 5182 5236
+)
+"src/typechecker.ml" 129 4744 4763 "src/typechecker.ml" 129 4744 4777
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 129 4744 4778 "src/typechecker.ml" 129 4744 4782
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 129 4744 4783 "src/typechecker.ml" 129 4744 4799
+type(
+  Type.t
+)
+ident(
+  int_ref existential_type "src/typechecker.ml" 128 4686 4721 "src/typechecker.ml" 128 4686 4737
+)
+"src/typechecker.ml" 129 4744 4763 "src/typechecker.ml" 129 4744 4799
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 130 4803 4815 "src/typechecker.ml" 130 4803 4821
+type(
+  Type.t
+)
+ident(
+  int_ref e_type "src/typechecker.ml" 129 4744 4754 "src/typechecker.ml" 129 4744 4760
+)
+"src/typechecker.ml" 131 4828 4849 "src/typechecker.ml" 131 4828 4850
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 131 4828 4861 "src/typechecker.ml" 137 5172 5181
+)
+"src/typechecker.ml" 131 4828 4852 "src/typechecker.ml" 131 4828 4856
+type(
+  Type.t
+)
+ident(
+  def tau2 "src/typechecker.ml" 131 4828 4861 "src/typechecker.ml" 137 5172 5181
+)
+"src/typechecker.ml" 131 4828 4836 "src/typechecker.ml" 131 4828 4857
+type(
+  Type.t
+)
+"src/typechecker.ml" 132 4863 4877 "src/typechecker.ml" 132 4863 4882
+type(
+  Type.t
+)
+ident(
+  def type1 "src/typechecker.ml" 133 4914 4924 "src/typechecker.ml" 136 5115 5171
+)
+"src/typechecker.ml" 132 4863 4885 "src/typechecker.ml" 132 4863 4899
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 132 4863 4900 "src/typechecker.ml" 132 4863 4904
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 132 4863 4905 "src/typechecker.ml" 132 4863 4908
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 132 4863 4909 "src/typechecker.ml" 132 4863 4910
+type(
+  Term.t
+)
+ident(
+  int_ref t "src/typechecker.ml" 128 4686 4718 "src/typechecker.ml" 128 4686 4719
+)
+"src/typechecker.ml" 132 4863 4885 "src/typechecker.ml" 132 4863 4910
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 133 4914 4928 "src/typechecker.ml" 133 4914 4933
+type(
+  Type.t
+)
+ident(
+  def _type "src/typechecker.ml" 134 5000 5010 "src/typechecker.ml" 136 5115 5171
+)
+"src/typechecker.ml" 133 4914 4936 "src/typechecker.ml" 133 4914 4951
+type(
+  string -> Type.t -> Type.t -> Type.t
+)
+ident(
+  ext_ref Ast.IR.Type.substitute
+)
+"src/typechecker.ml" 133 4914 4952 "src/typechecker.ml" 133 4914 4953
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 131 4828 4849 "src/typechecker.ml" 131 4828 4850
+)
+"src/typechecker.ml" 133 4914 4955 "src/typechecker.ml" 133 4914 4969
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 133 4914 4970 "src/typechecker.ml" 133 4914 4974
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 133 4914 4975 "src/typechecker.ml" 133 4914 4989
+type(
+  Type.t
+)
+ident(
+  int_ref abstracted_tau "src/typechecker.ml" 128 4686 4702 "src/typechecker.ml" 128 4686 4716
+)
+"src/typechecker.ml" 133 4914 4954 "src/typechecker.ml" 133 4914 4990
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 133 4914 4991 "src/typechecker.ml" 133 4914 4995
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 131 4828 4852 "src/typechecker.ml" 131 4828 4856
+)
+"src/typechecker.ml" 133 4914 4936 "src/typechecker.ml" 133 4914 4995
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 134 5000 5014 "src/typechecker.ml" 134 5000 5019
+type(
+  Type.t
+)
+ident(
+  def type2 "src/typechecker.ml" 135 5051 5061 "src/typechecker.ml" 136 5115 5171
+)
+"src/typechecker.ml" 134 5000 5022 "src/typechecker.ml" 134 5000 5036
+type(
+  String.Set.t -> Type.t -> Type.t
+)
+ident(
+  int_ref typecheck_type "src/typechecker.ml" 8 113 121 "src/typechecker.ml" 8 113 135
+)
+"src/typechecker.ml" 134 5000 5037 "src/typechecker.ml" 134 5000 5041
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 134 5000 5042 "src/typechecker.ml" 134 5000 5047
+type(
+  Type.t
+)
+ident(
+  int_ref _type "src/typechecker.ml" 133 4914 4928 "src/typechecker.ml" 133 4914 4933
+)
+"src/typechecker.ml" 134 5000 5022 "src/typechecker.ml" 134 5000 5047
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 135 5051 5064 "src/typechecker.ml" 135 5051 5075
+type(
+  Type.t -> Type.t -> bool
+)
+ident(
+  ext_ref Ast.IR.Type.aequiv
+)
+"src/typechecker.ml" 135 5051 5076 "src/typechecker.ml" 135 5051 5081
+type(
+  Type.t
+)
+ident(
+  int_ref type1 "src/typechecker.ml" 132 4863 4877 "src/typechecker.ml" 132 4863 4882
+)
+"src/typechecker.ml" 135 5051 5082 "src/typechecker.ml" 135 5051 5087
+type(
+  Type.t
+)
+ident(
+  int_ref type2 "src/typechecker.ml" 134 5000 5014 "src/typechecker.ml" 134 5000 5019
+)
+"src/typechecker.ml" 135 5051 5064 "src/typechecker.ml" 135 5051 5087
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 135 5051 5106 "src/typechecker.ml" 135 5051 5107
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 131 4828 4849 "src/typechecker.ml" 131 4828 4850
+)
+"src/typechecker.ml" 135 5051 5109 "src/typechecker.ml" 135 5051 5113
+type(
+  Type.t
+)
+ident(
+  int_ref tau2 "src/typechecker.ml" 131 4828 4852 "src/typechecker.ml" 131 4828 4856
+)
+"src/typechecker.ml" 135 5051 5093 "src/typechecker.ml" 135 5051 5114
+type(
+  Type.t
+)
+"src/typechecker.ml" 136 5115 5130 "src/typechecker.ml" 136 5115 5135
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 136 5115 5147 "src/typechecker.ml" 136 5115 5170
+type(
+  string
+)
+"src/typechecker.ml" 136 5115 5136 "src/typechecker.ml" 136 5115 5171
+type(
+  exn
+)
+"src/typechecker.ml" 136 5115 5130 "src/typechecker.ml" 136 5115 5171
+type(
+  Type.t
+)
+"src/typechecker.ml" 135 5051 5061 "src/typechecker.ml" 136 5115 5171
+type(
+  Type.t
+)
+"src/typechecker.ml" 134 5000 5010 "src/typechecker.ml" 136 5115 5171
+type(
+  Type.t
+)
+"src/typechecker.ml" 133 4914 4924 "src/typechecker.ml" 136 5115 5171
+type(
+  Type.t
+)
+"src/typechecker.ml" 131 4828 4861 "src/typechecker.ml" 137 5172 5181
+type(
+  Type.t
+)
+"src/typechecker.ml" 138 5182 5190 "src/typechecker.ml" 138 5182 5191
+type(
+  Type.t
+)
+"src/typechecker.ml" 138 5182 5195 "src/typechecker.ml" 138 5182 5200
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 138 5182 5212 "src/typechecker.ml" 138 5182 5235
+type(
+  string
+)
+"src/typechecker.ml" 138 5182 5201 "src/typechecker.ml" 138 5182 5236
+type(
+  exn
+)
+"src/typechecker.ml" 138 5182 5195 "src/typechecker.ml" 138 5182 5236
+type(
+  Type.t
+)
+"src/typechecker.ml" 130 4803 4809 "src/typechecker.ml" 138 5182 5236
+type(
+  Type.t
+)
+"src/typechecker.ml" 128 4686 4742 "src/typechecker.ml" 139 5237 5242
+type(
+  Type.t
+)
+"src/typechecker.ml" 141 5244 5262 "src/typechecker.ml" 141 5244 5265
+type(
+  string
+)
+ident(
+  def xty "src/typechecker.ml" 141 5244 5288 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 141 5244 5267 "src/typechecker.ml" 141 5244 5272
+type(
+  string
+)
+ident(
+  def xterm "src/typechecker.ml" 141 5244 5288 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 141 5244 5274 "src/typechecker.ml" 141 5244 5277
+type(
+  Term.t
+)
+ident(
+  def arg "src/typechecker.ml" 141 5244 5288 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 141 5244 5279 "src/typechecker.ml" 141 5244 5283
+type(
+  Term.t
+)
+ident(
+  def body "src/typechecker.ml" 141 5244 5288 "src/typechecker.ml" 152 5701 5706
+)
+"src/typechecker.ml" 141 5244 5248 "src/typechecker.ml" 141 5244 5284
+type(
+  Term.t
+)
+"src/typechecker.ml" 142 5290 5300 "src/typechecker.ml" 142 5290 5308
+type(
+  Type.t
+)
+ident(
+  def arg_type "src/typechecker.ml" 143 5342 5348 "src/typechecker.ml" 151 5646 5700
+)
+"src/typechecker.ml" 142 5290 5311 "src/typechecker.ml" 142 5290 5325
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 142 5290 5326 "src/typechecker.ml" 142 5290 5330
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 142 5290 5331 "src/typechecker.ml" 142 5290 5334
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 142 5290 5335 "src/typechecker.ml" 142 5290 5338
+type(
+  Term.t
+)
+ident(
+  int_ref arg "src/typechecker.ml" 141 5244 5274 "src/typechecker.ml" 141 5244 5277
+)
+"src/typechecker.ml" 142 5290 5311 "src/typechecker.ml" 142 5290 5338
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 143 5342 5354 "src/typechecker.ml" 143 5342 5362
+type(
+  Type.t
+)
+ident(
+  int_ref arg_type "src/typechecker.ml" 142 5290 5300 "src/typechecker.ml" 142 5290 5308
+)
+"src/typechecker.ml" 144 5368 5389 "src/typechecker.ml" 144 5368 5390
+type(
+  string
+)
+ident(
+  def x "src/typechecker.ml" 144 5368 5401 "src/typechecker.ml" 150 5636 5645
+)
+"src/typechecker.ml" 144 5368 5392 "src/typechecker.ml" 144 5368 5396
+type(
+  Type.t
+)
+ident(
+  def tau1 "src/typechecker.ml" 144 5368 5401 "src/typechecker.ml" 150 5636 5645
+)
+"src/typechecker.ml" 144 5368 5376 "src/typechecker.ml" 144 5368 5397
+type(
+  Type.t
+)
+"src/typechecker.ml" 145 5403 5416 "src/typechecker.ml" 145 5403 5419
+type(
+  string
+)
+ident(
+  int_ref xty "src/typechecker.ml" 141 5244 5262 "src/typechecker.ml" 141 5244 5265
+)
+"src/typechecker.ml" 145 5403 5420 "src/typechecker.ml" 145 5403 5421
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 145 5403 5422 "src/typechecker.ml" 145 5403 5423
+type(
+  string
+)
+ident(
+  int_ref x "src/typechecker.ml" 144 5368 5389 "src/typechecker.ml" 144 5368 5390
+)
+"src/typechecker.ml" 145 5403 5416 "src/typechecker.ml" 145 5403 5423
+type(
+  bool
+)
+"src/typechecker.ml" 146 5431 5447 "src/typechecker.ml" 146 5431 5454
+type(
+  Type.t String.Map.t
+)
+ident(
+  def new_env "src/typechecker.ml" 147 5501 5513 "src/typechecker.ml" 147 5501 5566
+)
+"src/typechecker.ml" 146 5431 5457 "src/typechecker.ml" 146 5431 5471
+type(
+  Type.t String.Map.t -> key:string -> data:Type.t -> Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.add
+)
+"src/typechecker.ml" 146 5431 5472 "src/typechecker.ml" 146 5431 5475
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref env "src/typechecker.ml" 29 1254 1300 "src/typechecker.ml" 29 1254 1303
+)
+"src/typechecker.ml" 146 5431 5481 "src/typechecker.ml" 146 5431 5486
+type(
+  string
+)
+ident(
+  int_ref xterm "src/typechecker.ml" 141 5244 5267 "src/typechecker.ml" 141 5244 5272
+)
+"src/typechecker.ml" 146 5431 5493 "src/typechecker.ml" 146 5431 5497
+type(
+  Type.t
+)
+ident(
+  int_ref tau1 "src/typechecker.ml" 144 5368 5392 "src/typechecker.ml" 144 5368 5396
+)
+"src/typechecker.ml" 146 5431 5457 "src/typechecker.ml" 146 5431 5497
+call(
+  stack
+)
+type(
+  Type.t String.Map.t
+)
+"src/typechecker.ml" 147 5501 5513 "src/typechecker.ml" 147 5501 5527
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 147 5501 5529 "src/typechecker.ml" 147 5501 5543
+type(
+  String.Set.t -> string -> String.Set.t
+)
+ident(
+  ext_ref Core.String.Set.add
+)
+"src/typechecker.ml" 147 5501 5544 "src/typechecker.ml" 147 5501 5548
+type(
+  String.Set.t
+)
+ident(
+  int_ref tenv "src/typechecker.ml" 29 1254 1278 "src/typechecker.ml" 29 1254 1282
+)
+"src/typechecker.ml" 147 5501 5549 "src/typechecker.ml" 147 5501 5552
+type(
+  string
+)
+ident(
+  int_ref xty "src/typechecker.ml" 141 5244 5262 "src/typechecker.ml" 141 5244 5265
+)
+"src/typechecker.ml" 147 5501 5528 "src/typechecker.ml" 147 5501 5553
+call(
+  stack
+)
+type(
+  String.Set.t
+)
+"src/typechecker.ml" 147 5501 5554 "src/typechecker.ml" 147 5501 5561
+type(
+  Type.t String.Map.t
+)
+ident(
+  int_ref new_env "src/typechecker.ml" 146 5431 5447 "src/typechecker.ml" 146 5431 5454
+)
+"src/typechecker.ml" 147 5501 5562 "src/typechecker.ml" 147 5501 5566
+type(
+  Term.t
+)
+ident(
+  int_ref body "src/typechecker.ml" 141 5244 5279 "src/typechecker.ml" 141 5244 5283
+)
+"src/typechecker.ml" 147 5501 5513 "src/typechecker.ml" 147 5501 5566
+call(
+  tail
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 145 5403 5429 "src/typechecker.ml" 148 5567 5578
+type(
+  Type.t
+)
+"src/typechecker.ml" 149 5579 5594 "src/typechecker.ml" 149 5579 5599
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 149 5579 5611 "src/typechecker.ml" 149 5579 5634
+type(
+  string
+)
+"src/typechecker.ml" 149 5579 5600 "src/typechecker.ml" 149 5579 5635
+type(
+  exn
+)
+"src/typechecker.ml" 149 5579 5594 "src/typechecker.ml" 149 5579 5635
+type(
+  Type.t
+)
+"src/typechecker.ml" 144 5368 5401 "src/typechecker.ml" 150 5636 5645
+type(
+  Type.t
+)
+"src/typechecker.ml" 151 5646 5654 "src/typechecker.ml" 151 5646 5655
+type(
+  Type.t
+)
+"src/typechecker.ml" 151 5646 5659 "src/typechecker.ml" 151 5646 5664
+type(
+  exn -> Type.t
+)
+ident(
+  ext_ref Core.raise
+)
+"src/typechecker.ml" 151 5646 5676 "src/typechecker.ml" 151 5646 5699
+type(
+  string
+)
+"src/typechecker.ml" 151 5646 5665 "src/typechecker.ml" 151 5646 5700
+type(
+  exn
+)
+"src/typechecker.ml" 151 5646 5659 "src/typechecker.ml" 151 5646 5700
+type(
+  Type.t
+)
+"src/typechecker.ml" 143 5342 5348 "src/typechecker.ml" 151 5646 5700
+type(
+  Type.t
+)
+"src/typechecker.ml" 141 5244 5288 "src/typechecker.ml" 152 5701 5706
+type(
+  Type.t
+)
+"src/typechecker.ml" 30 1351 1353 "src/typechecker.ml" 152 5701 5706
+type(
+  Type.t
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  def typecheck "src/typechecker.ml" 158 5819 5819 "src/typechecker.ml" 1 0 -1
+)
+"src/typechecker.ml" 154 5708 5722 "src/typechecker.ml" 154 5708 5723
+type(
+  Term.t
+)
+ident(
+  def t "src/typechecker.ml" 155 5726 5728 "src/typechecker.ml" 156 5788 5817
+)
+"src/typechecker.ml" 155 5726 5736 "src/typechecker.ml" 155 5726 5750
+type(
+  String.Set.t -> Type.t String.Map.t -> Term.t -> Type.t
+)
+ident(
+  int_ref typecheck_term "src/typechecker.ml" 29 1254 1262 "src/typechecker.ml" 29 1254 1276
+)
+"src/typechecker.ml" 155 5726 5751 "src/typechecker.ml" 155 5726 5767
+type(
+  String.Set.t
+)
+ident(
+  ext_ref Core.String.Set.empty
+)
+"src/typechecker.ml" 155 5726 5768 "src/typechecker.ml" 155 5726 5784
+type(
+  Type.t String.Map.t
+)
+ident(
+  ext_ref Core.String.Map.empty
+)
+"src/typechecker.ml" 155 5726 5785 "src/typechecker.ml" 155 5726 5786
+type(
+  Term.t
+)
+ident(
+  int_ref t "src/typechecker.ml" 154 5708 5722 "src/typechecker.ml" 154 5708 5723
+)
+"src/typechecker.ml" 155 5726 5735 "src/typechecker.ml" 155 5726 5787
+call(
+  stack
+)
+type(
+  Type.t
+)
+"src/typechecker.ml" 155 5726 5732 "src/typechecker.ml" 155 5726 5787
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 156 5788 5805 "src/typechecker.ml" 156 5788 5806
+type(
+  string
+)
+ident(
+  def s "src/typechecker.ml" 156 5788 5810 "src/typechecker.ml" 156 5788 5817
+)
+"src/typechecker.ml" 156 5788 5795 "src/typechecker.ml" 156 5788 5806
+type(
+  exn
+)
+"src/typechecker.ml" 156 5788 5816 "src/typechecker.ml" 156 5788 5817
+type(
+  string
+)
+ident(
+  int_ref s "src/typechecker.ml" 156 5788 5805 "src/typechecker.ml" 156 5788 5806
+)
+"src/typechecker.ml" 156 5788 5810 "src/typechecker.ml" 156 5788 5817
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 155 5726 5728 "src/typechecker.ml" 156 5788 5817
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 158 5819 5823 "src/typechecker.ml" 158 5819 5835
+type(
+  unit -> unit
+)
+ident(
+  def inline_tests "src/typechecker.ml" 211 7234 7234 "src/typechecker.ml" 1 0 -1
+)
+"src/typechecker.ml" 158 5819 5836 "src/typechecker.ml" 158 5819 5838
+type(
+  unit
+)
+"src/typechecker.ml" 160 5875 5881 "src/typechecker.ml" 160 5875 5886
+type(
+  Type.t
+)
+ident(
+  def exist "src/typechecker.ml" 163 5925 5927 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 161 5889 5905 "src/typechecker.ml" 161 5889 5908
+type(
+  string
+)
+"src/typechecker.ml" 161 5889 5910 "src/typechecker.ml" 161 5889 5918
+type(
+  Type.t
+)
+"src/typechecker.ml" 161 5889 5893 "src/typechecker.ml" 161 5889 5919
+type(
+  Type.t
+)
+"src/typechecker.ml" 163 5925 5931 "src/typechecker.ml" 163 5925 5935
+type(
+  Term.t
+)
+ident(
+  def pack "src/typechecker.ml" 166 5987 5989 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 164 5938 5953 "src/typechecker.ml" 164 5938 5961
+type(
+  Type.t
+)
+"src/typechecker.ml" 164 5938 5972 "src/typechecker.ml" 164 5938 5973
+type(
+  int
+)
+"src/typechecker.ml" 164 5938 5963 "src/typechecker.ml" 164 5938 5973
+type(
+  Term.t
+)
+"src/typechecker.ml" 164 5938 5975 "src/typechecker.ml" 164 5938 5980
+type(
+  Type.t
+)
+ident(
+  int_ref exist "src/typechecker.ml" 160 5875 5881 "src/typechecker.ml" 160 5875 5886
+)
+"src/typechecker.ml" 164 5938 5942 "src/typechecker.ml" 164 5938 5981
+type(
+  Term.t
+)
+"src/typechecker.ml" 166 5987 5993 "src/typechecker.ml" 166 5987 5999
+type(
+  Term.t
+)
+ident(
+  def unpack "src/typechecker.ml" 169 6054 6056 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 167 6002 6019 "src/typechecker.ml" 167 6002 6022
+type(
+  string
+)
+"src/typechecker.ml" 167 6002 6024 "src/typechecker.ml" 167 6002 6027
+type(
+  string
+)
+"src/typechecker.ml" 167 6002 6029 "src/typechecker.ml" 167 6002 6033
+type(
+  Term.t
+)
+ident(
+  int_ref pack "src/typechecker.ml" 163 5925 5931 "src/typechecker.ml" 163 5925 5935
+)
+"src/typechecker.ml" 167 6002 6044 "src/typechecker.ml" 167 6002 6047
+type(
+  string
+)
+"src/typechecker.ml" 167 6002 6035 "src/typechecker.ml" 167 6002 6047
+type(
+  Term.t
+)
+"src/typechecker.ml" 167 6002 6006 "src/typechecker.ml" 167 6002 6048
+type(
+  Term.t
+)
+"src/typechecker.ml" 169 6054 6063 "src/typechecker.ml" 169 6054 6072
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 169 6054 6073 "src/typechecker.ml" 169 6054 6079
+type(
+  Term.t
+)
+ident(
+  int_ref unpack "src/typechecker.ml" 166 5987 5993 "src/typechecker.ml" 166 5987 5999
+)
+"src/typechecker.ml" 169 6054 6063 "src/typechecker.ml" 169 6054 6079
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 169 6054 6080 "src/typechecker.ml" 169 6054 6081
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 169 6054 6084 "src/typechecker.ml" 169 6054 6094
+type(
+  Type.t
+)
+"src/typechecker.ml" 169 6054 6082 "src/typechecker.ml" 169 6054 6094
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 169 6054 6062 "src/typechecker.ml" 169 6054 6095
+type(
+  bool
+)
+"src/typechecker.ml" 169 6054 6056 "src/typechecker.ml" 169 6054 6095
+type(
+  unit
+)
+"src/typechecker.ml" 172 6123 6129 "src/typechecker.ml" 172 6123 6132
+type(
+  Term.t
+)
+ident(
+  def inj "src/typechecker.ml" 175 6208 6210 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 173 6135 6160 "src/typechecker.ml" 173 6135 6161
+type(
+  int
+)
+"src/typechecker.ml" 173 6135 6151 "src/typechecker.ml" 173 6135 6161
+type(
+  Term.t
+)
+"src/typechecker.ml" 173 6135 6163 "src/typechecker.ml" 173 6135 6171
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 173 6135 6182 "src/typechecker.ml" 173 6135 6190
+type(
+  Type.t
+)
+"src/typechecker.ml" 173 6135 6192 "src/typechecker.ml" 173 6135 6200
+type(
+  Type.t
+)
+"src/typechecker.ml" 173 6135 6173 "src/typechecker.ml" 173 6135 6201
+type(
+  Type.t
+)
+"src/typechecker.ml" 173 6135 6139 "src/typechecker.ml" 173 6135 6202
+type(
+  Term.t
+)
+"src/typechecker.ml" 175 6208 6218 "src/typechecker.ml" 175 6208 6227
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 175 6208 6228 "src/typechecker.ml" 175 6208 6231
+type(
+  Term.t
+)
+ident(
+  int_ref inj "src/typechecker.ml" 172 6123 6129 "src/typechecker.ml" 172 6123 6132
+)
+"src/typechecker.ml" 175 6208 6218 "src/typechecker.ml" 175 6208 6231
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 175 6208 6232 "src/typechecker.ml" 175 6208 6233
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 175 6208 6246 "src/typechecker.ml" 175 6208 6254
+type(
+  Type.t
+)
+"src/typechecker.ml" 175 6208 6256 "src/typechecker.ml" 175 6208 6264
+type(
+  Type.t
+)
+"src/typechecker.ml" 175 6208 6236 "src/typechecker.ml" 175 6208 6266
+type(
+  Type.t
+)
+"src/typechecker.ml" 175 6208 6234 "src/typechecker.ml" 175 6208 6266
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 175 6208 6217 "src/typechecker.ml" 175 6208 6267
+type(
+  bool
+)
+"src/typechecker.ml" 175 6208 6210 "src/typechecker.ml" 175 6208 6267
+type(
+  unit
+)
+"src/typechecker.ml" 178 6295 6301 "src/typechecker.ml" 178 6295 6306
+type(
+  Term.t
+)
+ident(
+  def tuple "src/typechecker.ml" 181 6349 6351 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 179 6309 6330 "src/typechecker.ml" 179 6309 6331
+type(
+  int
+)
+"src/typechecker.ml" 179 6309 6325 "src/typechecker.ml" 179 6309 6332
+type(
+  Term.t
+)
+"src/typechecker.ml" 179 6309 6339 "src/typechecker.ml" 179 6309 6340
+type(
+  int
+)
+"src/typechecker.ml" 179 6309 6334 "src/typechecker.ml" 179 6309 6341
+type(
+  Term.t
+)
+"src/typechecker.ml" 179 6309 6313 "src/typechecker.ml" 179 6309 6343
+type(
+  Term.t
+)
+"src/typechecker.ml" 181 6349 6359 "src/typechecker.ml" 181 6349 6368
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 181 6349 6369 "src/typechecker.ml" 181 6349 6374
+type(
+  Term.t
+)
+ident(
+  int_ref tuple "src/typechecker.ml" 178 6295 6301 "src/typechecker.ml" 178 6295 6306
+)
+"src/typechecker.ml" 181 6349 6359 "src/typechecker.ml" 181 6349 6374
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 181 6349 6375 "src/typechecker.ml" 181 6349 6376
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 181 6349 6393 "src/typechecker.ml" 181 6349 6401
+type(
+  Type.t
+)
+"src/typechecker.ml" 181 6349 6403 "src/typechecker.ml" 181 6349 6411
+type(
+  Type.t
+)
+"src/typechecker.ml" 181 6349 6379 "src/typechecker.ml" 181 6349 6413
+type(
+  Type.t
+)
+"src/typechecker.ml" 181 6349 6377 "src/typechecker.ml" 181 6349 6413
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 181 6349 6358 "src/typechecker.ml" 181 6349 6414
+type(
+  bool
+)
+"src/typechecker.ml" 181 6349 6351 "src/typechecker.ml" 181 6349 6414
+type(
+  unit
+)
+"src/typechecker.ml" 184 6441 6447 "src/typechecker.ml" 184 6441 6450
+type(
+  Term.t
+)
+ident(
+  def inj "src/typechecker.ml" 187 6550 6552 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 185 6453 6478 "src/typechecker.ml" 185 6453 6479
+type(
+  int
+)
+"src/typechecker.ml" 185 6453 6469 "src/typechecker.ml" 185 6453 6479
+type(
+  Term.t
+)
+"src/typechecker.ml" 185 6453 6481 "src/typechecker.ml" 185 6453 6489
+type(
+  Ast.direction
+)
+"src/typechecker.ml" 185 6453 6500 "src/typechecker.ml" 185 6453 6508
+type(
+  Type.t
+)
+"src/typechecker.ml" 185 6453 6523 "src/typechecker.ml" 185 6453 6531
+type(
+  Type.t
+)
+"src/typechecker.ml" 185 6453 6533 "src/typechecker.ml" 185 6453 6541
+type(
+  Type.t
+)
+"src/typechecker.ml" 185 6453 6510 "src/typechecker.ml" 185 6453 6542
+type(
+  Type.t
+)
+"src/typechecker.ml" 185 6453 6491 "src/typechecker.ml" 185 6453 6543
+type(
+  Type.t
+)
+"src/typechecker.ml" 185 6453 6457 "src/typechecker.ml" 185 6453 6544
+type(
+  Term.t
+)
+"src/typechecker.ml" 187 6550 6556 "src/typechecker.ml" 187 6550 6561
+type(
+  string * Term.t
+)
+ident(
+  def case1 "src/typechecker.ml" 189 6591 6593 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 187 6550 6565 "src/typechecker.ml" 187 6550 6572
+type(
+  string
+)
+"src/typechecker.ml" 187 6550 6583 "src/typechecker.ml" 187 6550 6584
+type(
+  int
+)
+"src/typechecker.ml" 187 6550 6574 "src/typechecker.ml" 187 6550 6584
+type(
+  Term.t
+)
+"src/typechecker.ml" 187 6550 6564 "src/typechecker.ml" 187 6550 6585
+type(
+  string * Term.t
+)
+"src/typechecker.ml" 189 6591 6597 "src/typechecker.ml" 189 6591 6602
+type(
+  string * Term.t
+)
+ident(
+  def case2 "src/typechecker.ml" 191 6632 6634 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 189 6591 6606 "src/typechecker.ml" 189 6591 6613
+type(
+  string
+)
+"src/typechecker.ml" 189 6591 6624 "src/typechecker.ml" 189 6591 6625
+type(
+  int
+)
+"src/typechecker.ml" 189 6591 6615 "src/typechecker.ml" 189 6591 6625
+type(
+  Term.t
+)
+"src/typechecker.ml" 189 6591 6605 "src/typechecker.ml" 189 6591 6626
+type(
+  string * Term.t
+)
+"src/typechecker.ml" 191 6632 6638 "src/typechecker.ml" 191 6632 6644
+type(
+  Term.t
+)
+ident(
+  def switch "src/typechecker.ml" 193 6681 6683 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 191 6632 6657 "src/typechecker.ml" 191 6632 6660
+type(
+  Term.t
+)
+ident(
+  int_ref inj "src/typechecker.ml" 184 6441 6447 "src/typechecker.ml" 184 6441 6450
+)
+"src/typechecker.ml" 191 6632 6662 "src/typechecker.ml" 191 6632 6667
+type(
+  string * Term.t
+)
+ident(
+  int_ref case1 "src/typechecker.ml" 187 6550 6556 "src/typechecker.ml" 187 6550 6561
+)
+"src/typechecker.ml" 191 6632 6669 "src/typechecker.ml" 191 6632 6674
+type(
+  string * Term.t
+)
+ident(
+  int_ref case2 "src/typechecker.ml" 189 6591 6597 "src/typechecker.ml" 189 6591 6602
+)
+"src/typechecker.ml" 191 6632 6647 "src/typechecker.ml" 191 6632 6675
+type(
+  Term.t
+)
+"src/typechecker.ml" 193 6681 6691 "src/typechecker.ml" 193 6681 6700
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 193 6681 6701 "src/typechecker.ml" 193 6681 6707
+type(
+  Term.t
+)
+ident(
+  int_ref switch "src/typechecker.ml" 191 6632 6638 "src/typechecker.ml" 191 6632 6644
+)
+"src/typechecker.ml" 193 6681 6691 "src/typechecker.ml" 193 6681 6707
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 193 6681 6708 "src/typechecker.ml" 193 6681 6709
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 193 6681 6712 "src/typechecker.ml" 193 6681 6722
+type(
+  Type.t
+)
+"src/typechecker.ml" 193 6681 6710 "src/typechecker.ml" 193 6681 6722
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 193 6681 6690 "src/typechecker.ml" 193 6681 6723
+type(
+  bool
+)
+"src/typechecker.ml" 193 6681 6683 "src/typechecker.ml" 193 6681 6723
+type(
+  unit
+)
+"src/typechecker.ml" 196 6765 6771 "src/typechecker.ml" 196 6765 6773
+type(
+  Term.t
+)
+ident(
+  def t1 "src/typechecker.ml" 197 6818 6820 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 196 6765 6786 "src/typechecker.ml" 196 6765 6789
+type(
+  string
+)
+"src/typechecker.ml" 196 6765 6791 "src/typechecker.ml" 196 6765 6799
+type(
+  Type.t
+)
+"src/typechecker.ml" 196 6765 6810 "src/typechecker.ml" 196 6765 6813
+type(
+  string
+)
+"src/typechecker.ml" 196 6765 6801 "src/typechecker.ml" 196 6765 6813
+type(
+  Term.t
+)
+"src/typechecker.ml" 196 6765 6776 "src/typechecker.ml" 196 6765 6814
+type(
+  Term.t
+)
+"src/typechecker.ml" 197 6818 6828 "src/typechecker.ml" 197 6818 6837
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 197 6818 6838 "src/typechecker.ml" 197 6818 6840
+type(
+  Term.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 196 6765 6771 "src/typechecker.ml" 196 6765 6773
+)
+"src/typechecker.ml" 197 6818 6828 "src/typechecker.ml" 197 6818 6840
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 197 6818 6841 "src/typechecker.ml" 197 6818 6842
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 197 6818 6854 "src/typechecker.ml" 197 6818 6862
+type(
+  Type.t
+)
+"src/typechecker.ml" 197 6818 6864 "src/typechecker.ml" 197 6818 6872
+type(
+  Type.t
+)
+"src/typechecker.ml" 197 6818 6845 "src/typechecker.ml" 197 6818 6874
+type(
+  Type.t
+)
+"src/typechecker.ml" 197 6818 6843 "src/typechecker.ml" 197 6818 6874
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 197 6818 6827 "src/typechecker.ml" 197 6818 6875
+type(
+  bool
+)
+"src/typechecker.ml" 197 6818 6820 "src/typechecker.ml" 197 6818 6875
+type(
+  unit
+)
+"src/typechecker.ml" 199 6878 6884 "src/typechecker.ml" 199 6878 6886
+type(
+  Term.t
+)
+ident(
+  def t2 "src/typechecker.ml" 200 6931 6933 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 199 6878 6899 "src/typechecker.ml" 199 6878 6902
+type(
+  string
+)
+"src/typechecker.ml" 199 6878 6904 "src/typechecker.ml" 199 6878 6912
+type(
+  Type.t
+)
+"src/typechecker.ml" 199 6878 6923 "src/typechecker.ml" 199 6878 6926
+type(
+  string
+)
+"src/typechecker.ml" 199 6878 6914 "src/typechecker.ml" 199 6878 6926
+type(
+  Term.t
+)
+"src/typechecker.ml" 199 6878 6889 "src/typechecker.ml" 199 6878 6927
+type(
+  Term.t
+)
+"src/typechecker.ml" 200 6931 6941 "src/typechecker.ml" 200 6931 6956
+type(
+  (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.Result.is_error
+)
+"src/typechecker.ml" 200 6931 6958 "src/typechecker.ml" 200 6931 6967
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 200 6931 6968 "src/typechecker.ml" 200 6931 6970
+type(
+  Term.t
+)
+ident(
+  int_ref t2 "src/typechecker.ml" 199 6878 6884 "src/typechecker.ml" 199 6878 6886
+)
+"src/typechecker.ml" 200 6931 6957 "src/typechecker.ml" 200 6931 6971
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 200 6931 6940 "src/typechecker.ml" 200 6931 6972
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 200 6931 6933 "src/typechecker.ml" 200 6931 6972
+type(
+  unit
+)
+"src/typechecker.ml" 202 6975 6981 "src/typechecker.ml" 202 6975 6983
+type(
+  Term.t
+)
+ident(
+  def t3 "src/typechecker.ml" 203 7015 7017 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 202 6975 6996 "src/typechecker.ml" 202 6975 6998
+type(
+  Term.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 196 6765 6771 "src/typechecker.ml" 196 6765 6773
+)
+"src/typechecker.ml" 202 6975 7009 "src/typechecker.ml" 202 6975 7010
+type(
+  int
+)
+"src/typechecker.ml" 202 6975 7000 "src/typechecker.ml" 202 6975 7010
+type(
+  Term.t
+)
+"src/typechecker.ml" 202 6975 6986 "src/typechecker.ml" 202 6975 7011
+type(
+  Term.t
+)
+"src/typechecker.ml" 203 7015 7025 "src/typechecker.ml" 203 7015 7034
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 203 7015 7035 "src/typechecker.ml" 203 7015 7037
+type(
+  Term.t
+)
+ident(
+  int_ref t3 "src/typechecker.ml" 202 6975 6981 "src/typechecker.ml" 202 6975 6983
+)
+"src/typechecker.ml" 203 7015 7025 "src/typechecker.ml" 203 7015 7037
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 203 7015 7038 "src/typechecker.ml" 203 7015 7039
+type(
+  (Type.t, string) result -> (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/typechecker.ml" 203 7015 7042 "src/typechecker.ml" 203 7015 7052
+type(
+  Type.t
+)
+"src/typechecker.ml" 203 7015 7040 "src/typechecker.ml" 203 7015 7052
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 203 7015 7024 "src/typechecker.ml" 203 7015 7053
+type(
+  bool
+)
+"src/typechecker.ml" 203 7015 7017 "src/typechecker.ml" 203 7015 7053
+type(
+  unit
+)
+"src/typechecker.ml" 205 7056 7062 "src/typechecker.ml" 205 7056 7064
+type(
+  Term.t
+)
+ident(
+  def t4 "src/typechecker.ml" 206 7096 7098 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 205 7056 7077 "src/typechecker.ml" 205 7056 7079
+type(
+  Term.t
+)
+ident(
+  int_ref t3 "src/typechecker.ml" 202 6975 6981 "src/typechecker.ml" 202 6975 6983
+)
+"src/typechecker.ml" 205 7056 7090 "src/typechecker.ml" 205 7056 7091
+type(
+  int
+)
+"src/typechecker.ml" 205 7056 7081 "src/typechecker.ml" 205 7056 7091
+type(
+  Term.t
+)
+"src/typechecker.ml" 205 7056 7067 "src/typechecker.ml" 205 7056 7092
+type(
+  Term.t
+)
+"src/typechecker.ml" 206 7096 7106 "src/typechecker.ml" 206 7096 7121
+type(
+  (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.Result.is_error
+)
+"src/typechecker.ml" 206 7096 7123 "src/typechecker.ml" 206 7096 7132
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 206 7096 7133 "src/typechecker.ml" 206 7096 7135
+type(
+  Term.t
+)
+ident(
+  int_ref t4 "src/typechecker.ml" 205 7056 7062 "src/typechecker.ml" 205 7056 7064
+)
+"src/typechecker.ml" 206 7096 7122 "src/typechecker.ml" 206 7096 7136
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 206 7096 7105 "src/typechecker.ml" 206 7096 7137
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 206 7096 7098 "src/typechecker.ml" 206 7096 7137
+type(
+  unit
+)
+"src/typechecker.ml" 208 7140 7146 "src/typechecker.ml" 208 7140 7148
+type(
+  Term.t
+)
+ident(
+  def t5 "src/typechecker.ml" 209 7191 7193 "src/typechecker.ml" 209 7191 7232
+)
+"src/typechecker.ml" 208 7140 7163 "src/typechecker.ml" 208 7140 7170
+type(
+  Ast.binop
+)
+"src/typechecker.ml" 208 7140 7181 "src/typechecker.ml" 208 7140 7182
+type(
+  int
+)
+"src/typechecker.ml" 208 7140 7172 "src/typechecker.ml" 208 7140 7182
+type(
+  Term.t
+)
+"src/typechecker.ml" 208 7140 7184 "src/typechecker.ml" 208 7140 7186
+type(
+  Term.t
+)
+ident(
+  int_ref t1 "src/typechecker.ml" 196 6765 6771 "src/typechecker.ml" 196 6765 6773
+)
+"src/typechecker.ml" 208 7140 7151 "src/typechecker.ml" 208 7140 7187
+type(
+  Term.t
+)
+"src/typechecker.ml" 209 7191 7201 "src/typechecker.ml" 209 7191 7216
+type(
+  (Type.t, string) result -> bool
+)
+ident(
+  ext_ref Core.Result.is_error
+)
+"src/typechecker.ml" 209 7191 7218 "src/typechecker.ml" 209 7191 7227
+type(
+  Term.t -> (Type.t, string) result
+)
+ident(
+  int_ref typecheck "src/typechecker.ml" 154 5708 5712 "src/typechecker.ml" 154 5708 5721
+)
+"src/typechecker.ml" 209 7191 7228 "src/typechecker.ml" 209 7191 7230
+type(
+  Term.t
+)
+ident(
+  int_ref t5 "src/typechecker.ml" 208 7140 7146 "src/typechecker.ml" 208 7140 7148
+)
+"src/typechecker.ml" 209 7191 7217 "src/typechecker.ml" 209 7191 7231
+call(
+  stack
+)
+type(
+  (Type.t, string) result
+)
+"src/typechecker.ml" 209 7191 7200 "src/typechecker.ml" 209 7191 7232
+call(
+  stack
+)
+type(
+  bool
+)
+"src/typechecker.ml" 209 7191 7193 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 208 7140 7142 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 206 7096 7098 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 205 7056 7058 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 203 7015 7017 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 202 6975 6977 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 200 6931 6933 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 199 6878 6880 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 197 6818 6820 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 196 6765 6767 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 193 6681 6683 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 191 6632 6634 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 189 6591 6593 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 187 6550 6552 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 184 6441 6443 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 181 6349 6351 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 178 6295 6297 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 175 6208 6210 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 172 6123 6125 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 169 6054 6056 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 166 5987 5989 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 163 5925 5927 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 160 5875 5877 "src/typechecker.ml" 209 7191 7232
+type(
+  unit
+)
+"src/typechecker.ml" 211 7234 7238 "src/typechecker.ml" 211 7234 7240
+type(
+  unit
+)
+"src/typechecker.ml" 211 7234 7243 "src/typechecker.ml" 211 7234 7255
+type(
+  unit -> unit
+)
+ident(
+  int_ref inline_tests "src/typechecker.ml" 158 5819 5823 "src/typechecker.ml" 158 5819 5835
+)
+"src/typechecker.ml" 211 7234 7256 "src/typechecker.ml" 211 7234 7258
+type(
+  unit
+)
+"src/typechecker.ml" 211 7234 7243 "src/typechecker.ml" 211 7234 7258
+call(
+  stack
+)
+type(
+  unit
+)

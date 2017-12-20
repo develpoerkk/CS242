@@ -1,0 +1,76 @@
+ \documentclass[11pt]{article}
+\usepackage{fullpage}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{proof,amsthm,amssymb,amsmath,color}
+\usepackage{ifthen}
+\usepackage{graphics}
+\usepackage{mathpartir}
+\usepackage{times}
+\usepackage{hyperref}
+\usepackage{txfonts}
+
+% We've defined a number of commands to reduce the work in writing common patterns.
+% Look at the examples below to see how they're used.
+\newcommand{\tsf}[1]{\textsf{#1}}
+\newcommand{\ttt}[1]{\texttt{#1}}
+
+\newcommand{\proves}{\vdash}
+\newcommand{\hasType}[2]{#1 : #2}
+\newcommand{\typeJ}[3]{#1 \proves \hasType{#2}{#3}}
+\newcommand{\ctx}{\Gamma}
+\newcommand{\typeJC}[2]{\typeJ{\ctx}{#1}{#2}}
+
+\newcommand{\val}[1]{#1~\tsf{val}}
+\newcommand{\error}[1]{#1~\tsf{error}}
+\newcommand{\num}[1]{\ttt{Int}(#1)}
+\newcommand{\steps}[2]{#1 \mapsto #2}
+\newcommand{\subst}[3]{[#1 \rightarrow #2]#3}
+\newcommand{\err}[1]{#1~\tsf{err}}
+\newcommand{\lett}[4]{\ttt{let} \ \hasType{#1}{#2} = #3 \ \ttt{in} \ #4}
+\newcommand{\rec}[3]{\ttt{rec}(#1; x.y.#2)(#3)}
+
+\begin{document}
+
+Here's some example syntax for defining rules and creating judgments. Make sure you delete these from your final submission.
+
+\begin{mathpar}
+% right=(1) defines what/where the label is
+\inferrule*
+    [right=(1)]
+    {\typeJ{\ctx,\hasType{x}{\tau_1}}{t_2}{\tau_2}}
+    {\hasType{(\lett{x}{\tau_1}{t_1}{t_2})}{\tau_2}}
+
+% The {\ } is used to make sure Latex draws the line for rules with no premises.
+\inferrule*
+    [right=(2)]
+    {\ }
+    {\steps{\lett{x}{\tau}{t_1}{t_2}}{\subst{t_1}{x}{t_2}}}
+\end{mathpar}
+
+\begin{mathpar}
+\inferrule*
+    [right=(3)]
+    {\typeJC{t}{\ttt{int}} \\
+      \typeJC{t_0}{\tau} \\
+      \typeJ{\ctx,\hasType{x}{\ttt{int}},\hasType{y}{\tau}}{t_1}{\tau}}
+    {\hasType{\rec{t_0}{t_1}{t}}{\tau}}
+
+\inferrule*
+    [right=(4)]
+    {\steps{t}{t'}}
+    {\steps{\rec{t_0}{t_1}{t}}{\rec{t_0}{t_1}{t'}}}
+
+\inferrule*
+    [right=(5)]
+    {\ }{\steps{\rec{t_0}{t_1}{\ttt{Int}(0)}}{t_0}}
+
+\inferrule*
+    [right=(6)]
+    {n \neq 0}
+    {\steps
+      {\rec{t_0}{t_1}{\ttt{Int}(n)}}
+      {[x \rightarrow e, y \rightarrow \rec{t_0}{t_1}{\ttt{Int}(n-1)}] \ t_1}}
+\end{mathpar}
+
+\end{document}

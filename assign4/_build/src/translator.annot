@@ -1,0 +1,2135 @@
+"src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  def translate_type "src/translator.ml" 6 45 45 "src/translator.ml" 1 0 -1
+)
+"src/translator.ml" 6 45 69 "src/translator.ml" 6 45 70
+type(
+  Lang.Type.t
+)
+ident(
+  def t "src/translator.ml" 6 45 86 "src/translator.ml" 14 490 557
+)
+"src/translator.ml" 7 100 108 "src/translator.ml" 7 100 109
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t "src/translator.ml" 6 45 69 "src/translator.ml" 6 45 70
+)
+"src/translator.ml" 8 115 119 "src/translator.ml" 8 115 132
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 8 115 136 "src/translator.ml" 8 115 147
+type(
+  IR.Type.t
+)
+"src/translator.ml" 9 148 166 "src/translator.ml" 9 148 167
+type(
+  string
+)
+ident(
+  def v "src/translator.ml" 9 148 171 "src/translator.ml" 9 148 184
+)
+"src/translator.ml" 9 148 152 "src/translator.ml" 9 148 167
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 9 148 183 "src/translator.ml" 9 148 184
+type(
+  string
+)
+ident(
+  int_ref v "src/translator.ml" 9 148 166 "src/translator.ml" 9 148 167
+)
+"src/translator.ml" 9 148 171 "src/translator.ml" 9 148 184
+type(
+  IR.Type.t
+)
+"src/translator.ml" 10 185 203 "src/translator.ml" 10 185 204
+type(
+  Lang.Type.t
+)
+ident(
+  def l "src/translator.ml" 10 185 212 "src/translator.ml" 10 185 259
+)
+"src/translator.ml" 10 185 206 "src/translator.ml" 10 185 207
+type(
+  Lang.Type.t
+)
+ident(
+  def r "src/translator.ml" 10 185 212 "src/translator.ml" 10 185 259
+)
+"src/translator.ml" 10 185 189 "src/translator.ml" 10 185 208
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 10 185 224 "src/translator.ml" 10 185 238
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 10 185 239 "src/translator.ml" 10 185 240
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref l "src/translator.ml" 10 185 203 "src/translator.ml" 10 185 204
+)
+"src/translator.ml" 10 185 224 "src/translator.ml" 10 185 240
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 10 185 242 "src/translator.ml" 10 185 256
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 10 185 257 "src/translator.ml" 10 185 258
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref r "src/translator.ml" 10 185 206 "src/translator.ml" 10 185 207
+)
+"src/translator.ml" 10 185 242 "src/translator.ml" 10 185 258
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 10 185 212 "src/translator.ml" 10 185 259
+type(
+  IR.Type.t
+)
+"src/translator.ml" 11 260 283 "src/translator.ml" 11 260 284
+type(
+  Lang.Type.t
+)
+ident(
+  def l "src/translator.ml" 11 260 292 "src/translator.ml" 11 260 344
+)
+"src/translator.ml" 11 260 286 "src/translator.ml" 11 260 287
+type(
+  Lang.Type.t
+)
+ident(
+  def r "src/translator.ml" 11 260 292 "src/translator.ml" 11 260 344
+)
+"src/translator.ml" 11 260 264 "src/translator.ml" 11 260 288
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 11 260 309 "src/translator.ml" 11 260 323
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 11 260 324 "src/translator.ml" 11 260 325
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref l "src/translator.ml" 11 260 283 "src/translator.ml" 11 260 284
+)
+"src/translator.ml" 11 260 309 "src/translator.ml" 11 260 325
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 11 260 327 "src/translator.ml" 11 260 341
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 11 260 342 "src/translator.ml" 11 260 343
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref r "src/translator.ml" 11 260 286 "src/translator.ml" 11 260 287
+)
+"src/translator.ml" 11 260 327 "src/translator.ml" 11 260 343
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 11 260 292 "src/translator.ml" 11 260 344
+type(
+  IR.Type.t
+)
+"src/translator.ml" 12 345 364 "src/translator.ml" 12 345 365
+type(
+  Lang.Type.t
+)
+ident(
+  def l "src/translator.ml" 12 345 373 "src/translator.ml" 12 345 421
+)
+"src/translator.ml" 12 345 367 "src/translator.ml" 12 345 368
+type(
+  Lang.Type.t
+)
+ident(
+  def r "src/translator.ml" 12 345 373 "src/translator.ml" 12 345 421
+)
+"src/translator.ml" 12 345 349 "src/translator.ml" 12 345 369
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 12 345 386 "src/translator.ml" 12 345 400
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 12 345 401 "src/translator.ml" 12 345 402
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref l "src/translator.ml" 12 345 364 "src/translator.ml" 12 345 365
+)
+"src/translator.ml" 12 345 386 "src/translator.ml" 12 345 402
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 12 345 404 "src/translator.ml" 12 345 418
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 12 345 419 "src/translator.ml" 12 345 420
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref r "src/translator.ml" 12 345 367 "src/translator.ml" 12 345 368
+)
+"src/translator.ml" 12 345 404 "src/translator.ml" 12 345 420
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 12 345 373 "src/translator.ml" 12 345 421
+type(
+  IR.Type.t
+)
+"src/translator.ml" 13 422 444 "src/translator.ml" 13 422 445
+type(
+  string
+)
+ident(
+  def x "src/translator.ml" 13 422 453 "src/translator.ml" 13 422 489
+)
+"src/translator.ml" 13 422 447 "src/translator.ml" 13 422 448
+type(
+  Lang.Type.t
+)
+ident(
+  def t "src/translator.ml" 13 422 453 "src/translator.ml" 13 422 489
+)
+"src/translator.ml" 13 422 426 "src/translator.ml" 13 422 449
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 13 422 469 "src/translator.ml" 13 422 470
+type(
+  string
+)
+ident(
+  int_ref x "src/translator.ml" 13 422 444 "src/translator.ml" 13 422 445
+)
+"src/translator.ml" 13 422 472 "src/translator.ml" 13 422 486
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 13 422 487 "src/translator.ml" 13 422 488
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t "src/translator.ml" 13 422 447 "src/translator.ml" 13 422 448
+)
+"src/translator.ml" 13 422 472 "src/translator.ml" 13 422 488
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 13 422 453 "src/translator.ml" 13 422 489
+type(
+  IR.Type.t
+)
+"src/translator.ml" 14 490 512 "src/translator.ml" 14 490 513
+type(
+  string
+)
+ident(
+  def x "src/translator.ml" 14 490 521 "src/translator.ml" 14 490 557
+)
+"src/translator.ml" 14 490 515 "src/translator.ml" 14 490 516
+type(
+  Lang.Type.t
+)
+ident(
+  def t "src/translator.ml" 14 490 521 "src/translator.ml" 14 490 557
+)
+"src/translator.ml" 14 490 494 "src/translator.ml" 14 490 517
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 14 490 537 "src/translator.ml" 14 490 538
+type(
+  string
+)
+ident(
+  int_ref x "src/translator.ml" 14 490 512 "src/translator.ml" 14 490 513
+)
+"src/translator.ml" 14 490 540 "src/translator.ml" 14 490 554
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 14 490 555 "src/translator.ml" 14 490 556
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t "src/translator.ml" 14 490 515 "src/translator.ml" 14 490 516
+)
+"src/translator.ml" 14 490 540 "src/translator.ml" 14 490 556
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 14 490 521 "src/translator.ml" 14 490 557
+type(
+  IR.Type.t
+)
+"src/translator.ml" 7 100 102 "src/translator.ml" 14 490 557
+type(
+  IR.Type.t
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  def translate_term "src/translator.ml" 20 860 860 "src/translator.ml" 1 0 -1
+)
+"src/translator.ml" 20 860 884 "src/translator.ml" 20 860 885
+type(
+  Lang.Term.t
+)
+ident(
+  def t "src/translator.ml" 20 860 901 "src/translator.ml" 75 3278 3283
+)
+"src/translator.ml" 21 915 923 "src/translator.ml" 21 915 924
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t "src/translator.ml" 20 860 884 "src/translator.ml" 20 860 885
+)
+"src/translator.ml" 24 1030 1048 "src/translator.ml" 24 1030 1049
+type(
+  int
+)
+ident(
+  def n "src/translator.ml" 24 1030 1053 "src/translator.ml" 24 1030 1066
+)
+"src/translator.ml" 24 1030 1034 "src/translator.ml" 24 1030 1049
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 24 1030 1065 "src/translator.ml" 24 1030 1066
+type(
+  int
+)
+ident(
+  int_ref n "src/translator.ml" 24 1030 1048 "src/translator.ml" 24 1030 1049
+)
+"src/translator.ml" 24 1030 1053 "src/translator.ml" 24 1030 1066
+type(
+  IR.Term.t
+)
+"src/translator.ml" 25 1067 1085 "src/translator.ml" 25 1067 1086
+type(
+  string
+)
+ident(
+  def v "src/translator.ml" 25 1067 1090 "src/translator.ml" 25 1067 1103
+)
+"src/translator.ml" 25 1067 1071 "src/translator.ml" 25 1067 1086
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 25 1067 1102 "src/translator.ml" 25 1067 1103
+type(
+  string
+)
+ident(
+  int_ref v "src/translator.ml" 25 1067 1085 "src/translator.ml" 25 1067 1086
+)
+"src/translator.ml" 25 1067 1090 "src/translator.ml" 25 1067 1103
+type(
+  IR.Term.t
+)
+"src/translator.ml" 26 1104 1123 "src/translator.ml" 26 1104 1124
+type(
+  string
+)
+ident(
+  def v "src/translator.ml" 26 1104 1135 "src/translator.ml" 26 1104 1186
+)
+"src/translator.ml" 26 1104 1126 "src/translator.ml" 26 1104 1127
+type(
+  Lang.Type.t
+)
+ident(
+  def t "src/translator.ml" 26 1104 1135 "src/translator.ml" 26 1104 1186
+)
+"src/translator.ml" 26 1104 1129 "src/translator.ml" 26 1104 1130
+type(
+  Lang.Term.t
+)
+ident(
+  def e "src/translator.ml" 26 1104 1135 "src/translator.ml" 26 1104 1186
+)
+"src/translator.ml" 26 1104 1108 "src/translator.ml" 26 1104 1131
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 26 1104 1148 "src/translator.ml" 26 1104 1149
+type(
+  string
+)
+ident(
+  int_ref v "src/translator.ml" 26 1104 1123 "src/translator.ml" 26 1104 1124
+)
+"src/translator.ml" 26 1104 1151 "src/translator.ml" 26 1104 1165
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 26 1104 1166 "src/translator.ml" 26 1104 1167
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t "src/translator.ml" 26 1104 1126 "src/translator.ml" 26 1104 1127
+)
+"src/translator.ml" 26 1104 1151 "src/translator.ml" 26 1104 1167
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 26 1104 1169 "src/translator.ml" 26 1104 1183
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 26 1104 1184 "src/translator.ml" 26 1104 1185
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref e "src/translator.ml" 26 1104 1129 "src/translator.ml" 26 1104 1130
+)
+"src/translator.ml" 26 1104 1169 "src/translator.ml" 26 1104 1185
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 26 1104 1135 "src/translator.ml" 26 1104 1186
+type(
+  IR.Term.t
+)
+"src/translator.ml" 27 1187 1206 "src/translator.ml" 27 1187 1207
+type(
+  Lang.Term.t
+)
+ident(
+  def l "src/translator.ml" 27 1187 1215 "src/translator.ml" 27 1187 1263
+)
+"src/translator.ml" 27 1187 1209 "src/translator.ml" 27 1187 1210
+type(
+  Lang.Term.t
+)
+ident(
+  def r "src/translator.ml" 27 1187 1215 "src/translator.ml" 27 1187 1263
+)
+"src/translator.ml" 27 1187 1191 "src/translator.ml" 27 1187 1211
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 27 1187 1228 "src/translator.ml" 27 1187 1242
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 27 1187 1243 "src/translator.ml" 27 1187 1244
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref l "src/translator.ml" 27 1187 1206 "src/translator.ml" 27 1187 1207
+)
+"src/translator.ml" 27 1187 1228 "src/translator.ml" 27 1187 1244
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 27 1187 1246 "src/translator.ml" 27 1187 1260
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 27 1187 1261 "src/translator.ml" 27 1187 1262
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref r "src/translator.ml" 27 1187 1209 "src/translator.ml" 27 1187 1210
+)
+"src/translator.ml" 27 1187 1246 "src/translator.ml" 27 1187 1262
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 27 1187 1215 "src/translator.ml" 27 1187 1263
+type(
+  IR.Term.t
+)
+"src/translator.ml" 28 1264 1285 "src/translator.ml" 28 1264 1286
+type(
+  binop
+)
+ident(
+  def b "src/translator.ml" 28 1264 1297 "src/translator.ml" 28 1264 1350
+)
+"src/translator.ml" 28 1264 1288 "src/translator.ml" 28 1264 1289
+type(
+  Lang.Term.t
+)
+ident(
+  def l "src/translator.ml" 28 1264 1297 "src/translator.ml" 28 1264 1350
+)
+"src/translator.ml" 28 1264 1291 "src/translator.ml" 28 1264 1292
+type(
+  Lang.Term.t
+)
+ident(
+  def r "src/translator.ml" 28 1264 1297 "src/translator.ml" 28 1264 1350
+)
+"src/translator.ml" 28 1264 1268 "src/translator.ml" 28 1264 1293
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 28 1264 1312 "src/translator.ml" 28 1264 1313
+type(
+  binop
+)
+ident(
+  int_ref b "src/translator.ml" 28 1264 1285 "src/translator.ml" 28 1264 1286
+)
+"src/translator.ml" 28 1264 1315 "src/translator.ml" 28 1264 1329
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 28 1264 1330 "src/translator.ml" 28 1264 1331
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref l "src/translator.ml" 28 1264 1288 "src/translator.ml" 28 1264 1289
+)
+"src/translator.ml" 28 1264 1315 "src/translator.ml" 28 1264 1331
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 28 1264 1333 "src/translator.ml" 28 1264 1347
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 28 1264 1348 "src/translator.ml" 28 1264 1349
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref r "src/translator.ml" 28 1264 1291 "src/translator.ml" 28 1264 1292
+)
+"src/translator.ml" 28 1264 1333 "src/translator.ml" 28 1264 1349
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 28 1264 1297 "src/translator.ml" 28 1264 1350
+type(
+  IR.Term.t
+)
+"src/translator.ml" 29 1351 1372 "src/translator.ml" 29 1351 1373
+type(
+  Lang.Term.t
+)
+ident(
+  def l "src/translator.ml" 29 1351 1381 "src/translator.ml" 29 1351 1431
+)
+"src/translator.ml" 29 1351 1375 "src/translator.ml" 29 1351 1376
+type(
+  Lang.Term.t
+)
+ident(
+  def r "src/translator.ml" 29 1351 1381 "src/translator.ml" 29 1351 1431
+)
+"src/translator.ml" 29 1351 1355 "src/translator.ml" 29 1351 1377
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 29 1351 1396 "src/translator.ml" 29 1351 1410
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 29 1351 1411 "src/translator.ml" 29 1351 1412
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref l "src/translator.ml" 29 1351 1372 "src/translator.ml" 29 1351 1373
+)
+"src/translator.ml" 29 1351 1396 "src/translator.ml" 29 1351 1412
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 29 1351 1414 "src/translator.ml" 29 1351 1428
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 29 1351 1429 "src/translator.ml" 29 1351 1430
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref r "src/translator.ml" 29 1351 1375 "src/translator.ml" 29 1351 1376
+)
+"src/translator.ml" 29 1351 1414 "src/translator.ml" 29 1351 1430
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 29 1351 1381 "src/translator.ml" 29 1351 1431
+type(
+  IR.Term.t
+)
+"src/translator.ml" 30 1432 1455 "src/translator.ml" 30 1432 1456
+type(
+  Lang.Term.t
+)
+ident(
+  def t "src/translator.ml" 31 1466 1470 "src/translator.ml" 31 1466 1509
+)
+"src/translator.ml" 30 1432 1458 "src/translator.ml" 30 1432 1461
+type(
+  direction
+)
+ident(
+  def dir "src/translator.ml" 31 1466 1470 "src/translator.ml" 31 1466 1509
+)
+"src/translator.ml" 30 1432 1436 "src/translator.ml" 30 1432 1462
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 31 1466 1487 "src/translator.ml" 31 1466 1501
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 31 1466 1502 "src/translator.ml" 31 1466 1503
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t "src/translator.ml" 30 1432 1455 "src/translator.ml" 30 1432 1456
+)
+"src/translator.ml" 31 1466 1487 "src/translator.ml" 31 1466 1503
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 31 1466 1505 "src/translator.ml" 31 1466 1508
+type(
+  direction
+)
+ident(
+  int_ref dir "src/translator.ml" 30 1432 1458 "src/translator.ml" 30 1432 1461
+)
+"src/translator.ml" 31 1466 1470 "src/translator.ml" 31 1466 1509
+type(
+  IR.Term.t
+)
+"src/translator.ml" 32 1510 1532 "src/translator.ml" 32 1510 1533
+type(
+  Lang.Term.t
+)
+ident(
+  def t "src/translator.ml" 33 1548 1552 "src/translator.ml" 33 1548 1610
+)
+"src/translator.ml" 32 1510 1535 "src/translator.ml" 32 1510 1538
+type(
+  direction
+)
+ident(
+  def dir "src/translator.ml" 33 1548 1552 "src/translator.ml" 33 1548 1610
+)
+"src/translator.ml" 32 1510 1540 "src/translator.ml" 32 1510 1543
+type(
+  Lang.Type.t
+)
+ident(
+  def tau "src/translator.ml" 33 1548 1552 "src/translator.ml" 33 1548 1610
+)
+"src/translator.ml" 32 1510 1514 "src/translator.ml" 32 1510 1544
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 33 1548 1568 "src/translator.ml" 33 1548 1582
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 33 1548 1583 "src/translator.ml" 33 1548 1584
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t "src/translator.ml" 32 1510 1532 "src/translator.ml" 32 1510 1533
+)
+"src/translator.ml" 33 1548 1568 "src/translator.ml" 33 1548 1584
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 33 1548 1586 "src/translator.ml" 33 1548 1589
+type(
+  direction
+)
+ident(
+  int_ref dir "src/translator.ml" 32 1510 1535 "src/translator.ml" 32 1510 1538
+)
+"src/translator.ml" 33 1548 1591 "src/translator.ml" 33 1548 1605
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 33 1548 1606 "src/translator.ml" 33 1548 1609
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref tau "src/translator.ml" 32 1510 1540 "src/translator.ml" 32 1510 1543
+)
+"src/translator.ml" 33 1548 1591 "src/translator.ml" 33 1548 1609
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 33 1548 1552 "src/translator.ml" 33 1548 1610
+type(
+  IR.Term.t
+)
+"src/translator.ml" 34 1611 1631 "src/translator.ml" 34 1611 1632
+type(
+  string
+)
+ident(
+  def v "src/translator.ml" 34 1611 1640 "src/translator.ml" 34 1611 1674
+)
+"src/translator.ml" 34 1611 1634 "src/translator.ml" 34 1611 1635
+type(
+  Lang.Term.t
+)
+ident(
+  def e "src/translator.ml" 34 1611 1640 "src/translator.ml" 34 1611 1674
+)
+"src/translator.ml" 34 1611 1615 "src/translator.ml" 34 1611 1636
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 34 1611 1654 "src/translator.ml" 34 1611 1655
+type(
+  string
+)
+ident(
+  int_ref v "src/translator.ml" 34 1611 1631 "src/translator.ml" 34 1611 1632
+)
+"src/translator.ml" 34 1611 1657 "src/translator.ml" 34 1611 1671
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 34 1611 1672 "src/translator.ml" 34 1611 1673
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref e "src/translator.ml" 34 1611 1634 "src/translator.ml" 34 1611 1635
+)
+"src/translator.ml" 34 1611 1657 "src/translator.ml" 34 1611 1673
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 34 1611 1640 "src/translator.ml" 34 1611 1674
+type(
+  IR.Term.t
+)
+"src/translator.ml" 35 1675 1695 "src/translator.ml" 35 1675 1696
+type(
+  Lang.Term.t
+)
+ident(
+  def e "src/translator.ml" 35 1675 1704 "src/translator.ml" 35 1675 1753
+)
+"src/translator.ml" 35 1675 1698 "src/translator.ml" 35 1675 1699
+type(
+  Lang.Type.t
+)
+ident(
+  def t "src/translator.ml" 35 1675 1704 "src/translator.ml" 35 1675 1753
+)
+"src/translator.ml" 35 1675 1679 "src/translator.ml" 35 1675 1700
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 35 1675 1718 "src/translator.ml" 35 1675 1732
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 35 1675 1733 "src/translator.ml" 35 1675 1734
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref e "src/translator.ml" 35 1675 1695 "src/translator.ml" 35 1675 1696
+)
+"src/translator.ml" 35 1675 1718 "src/translator.ml" 35 1675 1734
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 35 1675 1736 "src/translator.ml" 35 1675 1750
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 35 1675 1751 "src/translator.ml" 35 1675 1752
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t "src/translator.ml" 35 1675 1698 "src/translator.ml" 35 1675 1699
+)
+"src/translator.ml" 35 1675 1736 "src/translator.ml" 35 1675 1752
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 35 1675 1704 "src/translator.ml" 35 1675 1753
+type(
+  IR.Term.t
+)
+"src/translator.ml" 36 1754 1775 "src/translator.ml" 36 1754 1777
+type(
+  Lang.Type.t
+)
+ident(
+  def t1 "src/translator.ml" 37 1789 1793 "src/translator.ml" 37 1789 1863
+)
+"src/translator.ml" 36 1754 1779 "src/translator.ml" 36 1754 1780
+type(
+  Lang.Term.t
+)
+ident(
+  def e "src/translator.ml" 37 1789 1793 "src/translator.ml" 37 1789 1863
+)
+"src/translator.ml" 36 1754 1782 "src/translator.ml" 36 1754 1784
+type(
+  Lang.Type.t
+)
+ident(
+  def t2 "src/translator.ml" 37 1789 1793 "src/translator.ml" 37 1789 1863
+)
+"src/translator.ml" 36 1754 1758 "src/translator.ml" 36 1754 1785
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 37 1789 1808 "src/translator.ml" 37 1789 1822
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 37 1789 1823 "src/translator.ml" 37 1789 1825
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t1 "src/translator.ml" 36 1754 1775 "src/translator.ml" 36 1754 1777
+)
+"src/translator.ml" 37 1789 1808 "src/translator.ml" 37 1789 1825
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 37 1789 1827 "src/translator.ml" 37 1789 1841
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 37 1789 1842 "src/translator.ml" 37 1789 1843
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref e "src/translator.ml" 36 1754 1779 "src/translator.ml" 36 1754 1780
+)
+"src/translator.ml" 37 1789 1827 "src/translator.ml" 37 1789 1843
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 37 1789 1845 "src/translator.ml" 37 1789 1859
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 37 1789 1860 "src/translator.ml" 37 1789 1862
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref t2 "src/translator.ml" 36 1754 1782 "src/translator.ml" 36 1754 1784
+)
+"src/translator.ml" 37 1789 1845 "src/translator.ml" 37 1789 1862
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 37 1789 1793 "src/translator.ml" 37 1789 1863
+type(
+  IR.Term.t
+)
+"src/translator.ml" 39 1865 1886 "src/translator.ml" 39 1865 1887
+type(
+  Lang.Term.t
+)
+ident(
+  def t "src/translator.ml" 42 2030 2034 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 39 1865 1890 "src/translator.ml" 39 1865 1892
+type(
+  Lang.Pattern.t
+)
+ident(
+  def p1 "src/translator.ml" 42 2030 2034 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 39 1865 1894 "src/translator.ml" 39 1865 1896
+type(
+  Lang.Term.t
+)
+ident(
+  def t1 "src/translator.ml" 42 2030 2034 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 39 1865 1889 "src/translator.ml" 39 1865 1897
+type(
+  Lang.Pattern.t * Lang.Term.t
+)
+"src/translator.ml" 39 1865 1900 "src/translator.ml" 39 1865 1902
+type(
+  Lang.Pattern.t
+)
+ident(
+  def p2 "src/translator.ml" 42 2030 2034 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 39 1865 1904 "src/translator.ml" 39 1865 1906
+type(
+  Lang.Term.t
+)
+ident(
+  def t2 "src/translator.ml" 42 2030 2034 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 39 1865 1899 "src/translator.ml" 39 1865 1907
+type(
+  Lang.Pattern.t * Lang.Term.t
+)
+"src/translator.ml" 39 1865 1869 "src/translator.ml" 39 1865 1908
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 42 2030 2038 "src/translator.ml" 42 2030 2040
+type(
+  IR.Term.t
+)
+ident(
+  def t' "src/translator.ml" 43 2063 2067 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 42 2030 2043 "src/translator.ml" 42 2030 2057
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 42 2030 2058 "src/translator.ml" 42 2030 2059
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t "src/translator.ml" 39 1865 1886 "src/translator.ml" 39 1865 1887
+)
+"src/translator.ml" 42 2030 2043 "src/translator.ml" 42 2030 2059
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 43 2063 2071 "src/translator.ml" 43 2063 2074
+type(
+  IR.Term.t
+)
+ident(
+  def t1' "src/translator.ml" 44 2140 2144 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 43 2063 2077 "src/translator.ml" 43 2063 2091
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 43 2063 2108 "src/translator.ml" 43 2063 2110
+type(
+  Lang.Pattern.t
+)
+ident(
+  int_ref p1 "src/translator.ml" 39 1865 1890 "src/translator.ml" 39 1865 1892
+)
+"src/translator.ml" 43 2063 2126 "src/translator.ml" 43 2063 2130
+type(
+  string
+)
+"src/translator.ml" 43 2063 2112 "src/translator.ml" 43 2063 2130
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 43 2063 2132 "src/translator.ml" 43 2063 2134
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t1 "src/translator.ml" 39 1865 1894 "src/translator.ml" 39 1865 1896
+)
+"src/translator.ml" 43 2063 2092 "src/translator.ml" 43 2063 2136
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 43 2063 2077 "src/translator.ml" 43 2063 2136
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 44 2140 2148 "src/translator.ml" 44 2140 2151
+type(
+  IR.Term.t
+)
+ident(
+  def t2' "src/translator.ml" 45 2217 2221 "src/translator.ml" 45 2217 2264
+)
+"src/translator.ml" 44 2140 2154 "src/translator.ml" 44 2140 2168
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 44 2140 2185 "src/translator.ml" 44 2140 2187
+type(
+  Lang.Pattern.t
+)
+ident(
+  int_ref p2 "src/translator.ml" 39 1865 1900 "src/translator.ml" 39 1865 1902
+)
+"src/translator.ml" 44 2140 2203 "src/translator.ml" 44 2140 2207
+type(
+  string
+)
+"src/translator.ml" 44 2140 2189 "src/translator.ml" 44 2140 2207
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 44 2140 2209 "src/translator.ml" 44 2140 2211
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t2 "src/translator.ml" 39 1865 1904 "src/translator.ml" 39 1865 1906
+)
+"src/translator.ml" 44 2140 2169 "src/translator.ml" 44 2140 2213
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 44 2140 2154 "src/translator.ml" 44 2140 2213
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 45 2217 2235 "src/translator.ml" 45 2217 2237
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t' "src/translator.ml" 42 2030 2038 "src/translator.ml" 42 2030 2040
+)
+"src/translator.ml" 45 2217 2240 "src/translator.ml" 45 2217 2244
+type(
+  string
+)
+"src/translator.ml" 45 2217 2246 "src/translator.ml" 45 2217 2249
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t1' "src/translator.ml" 43 2063 2071 "src/translator.ml" 43 2063 2074
+)
+"src/translator.ml" 45 2217 2239 "src/translator.ml" 45 2217 2250
+type(
+  string * IR.Term.t
+)
+"src/translator.ml" 45 2217 2253 "src/translator.ml" 45 2217 2257
+type(
+  string
+)
+"src/translator.ml" 45 2217 2259 "src/translator.ml" 45 2217 2262
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t2' "src/translator.ml" 44 2140 2148 "src/translator.ml" 44 2140 2151
+)
+"src/translator.ml" 45 2217 2252 "src/translator.ml" 45 2217 2263
+type(
+  string * IR.Term.t
+)
+"src/translator.ml" 45 2217 2221 "src/translator.ml" 45 2217 2264
+type(
+  IR.Term.t
+)
+"src/translator.ml" 44 2140 2144 "src/translator.ml" 45 2217 2264
+type(
+  IR.Term.t
+)
+"src/translator.ml" 43 2063 2067 "src/translator.ml" 45 2217 2264
+type(
+  IR.Term.t
+)
+"src/translator.ml" 42 2030 2034 "src/translator.ml" 45 2217 2264
+type(
+  IR.Term.t
+)
+"src/translator.ml" 47 2266 2285 "src/translator.ml" 47 2266 2286
+type(
+  Lang.Pattern.t
+)
+ident(
+  def p "src/translator.ml" 50 2392 2396 "src/translator.ml" 75 3278 3283
+)
+"src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+type(
+  Lang.Term.t
+)
+ident(
+  def arg "src/translator.ml" 50 2392 2396 "src/translator.ml" 75 3278 3283
+)
+"src/translator.ml" 47 2266 2293 "src/translator.ml" 47 2266 2297
+type(
+  Lang.Term.t
+)
+ident(
+  def body "src/translator.ml" 50 2392 2396 "src/translator.ml" 75 3278 3283
+)
+"src/translator.ml" 47 2266 2270 "src/translator.ml" 47 2266 2298
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 50 2392 2403 "src/translator.ml" 50 2392 2404
+type(
+  Lang.Pattern.t
+)
+ident(
+  int_ref p "src/translator.ml" 47 2266 2285 "src/translator.ml" 47 2266 2286
+)
+"src/translator.ml" 51 2410 2416 "src/translator.ml" 51 2410 2437
+type(
+  Lang.Pattern.t
+)
+"src/translator.ml" 52 2441 2447 "src/translator.ml" 52 2441 2461
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 52 2441 2462 "src/translator.ml" 52 2441 2466
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref body "src/translator.ml" 47 2266 2293 "src/translator.ml" 47 2266 2297
+)
+"src/translator.ml" 52 2441 2447 "src/translator.ml" 52 2441 2466
+call(
+  tail
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 54 2468 2492 "src/translator.ml" 54 2468 2493
+type(
+  string
+)
+ident(
+  def x "src/translator.ml" 55 2503 2509 "src/translator.ml" 57 2580 2647
+)
+"src/translator.ml" 54 2468 2495 "src/translator.ml" 54 2468 2498
+type(
+  Lang.Type.t
+)
+ident(
+  def tau "src/translator.ml" 55 2503 2509 "src/translator.ml" 57 2580 2647
+)
+"src/translator.ml" 54 2468 2474 "src/translator.ml" 54 2468 2499
+type(
+  Lang.Pattern.t
+)
+"src/translator.ml" 55 2503 2513 "src/translator.ml" 55 2503 2516
+type(
+  IR.Term.t
+)
+ident(
+  def t1' "src/translator.ml" 56 2541 2547 "src/translator.ml" 57 2580 2647
+)
+"src/translator.ml" 55 2503 2519 "src/translator.ml" 55 2503 2533
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 55 2503 2534 "src/translator.ml" 55 2503 2537
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref arg "src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+)
+"src/translator.ml" 55 2503 2519 "src/translator.ml" 55 2503 2537
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 56 2541 2551 "src/translator.ml" 56 2541 2554
+type(
+  IR.Term.t
+)
+ident(
+  def t2' "src/translator.ml" 57 2580 2586 "src/translator.ml" 57 2580 2647
+)
+"src/translator.ml" 56 2541 2557 "src/translator.ml" 56 2541 2571
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 56 2541 2572 "src/translator.ml" 56 2541 2576
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref body "src/translator.ml" 47 2266 2293 "src/translator.ml" 47 2266 2297
+)
+"src/translator.ml" 56 2541 2557 "src/translator.ml" 56 2541 2576
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 57 2580 2612 "src/translator.ml" 57 2580 2613
+type(
+  string
+)
+ident(
+  int_ref x "src/translator.ml" 54 2468 2492 "src/translator.ml" 54 2468 2493
+)
+"src/translator.ml" 57 2580 2616 "src/translator.ml" 57 2580 2630
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 57 2580 2631 "src/translator.ml" 57 2580 2634
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref tau "src/translator.ml" 54 2468 2495 "src/translator.ml" 54 2468 2498
+)
+"src/translator.ml" 57 2580 2615 "src/translator.ml" 57 2580 2635
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 57 2580 2637 "src/translator.ml" 57 2580 2640
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t2' "src/translator.ml" 56 2541 2551 "src/translator.ml" 56 2541 2554
+)
+"src/translator.ml" 57 2580 2599 "src/translator.ml" 57 2580 2641
+type(
+  IR.Term.t
+)
+"src/translator.ml" 57 2580 2643 "src/translator.ml" 57 2580 2646
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t1' "src/translator.ml" 55 2503 2513 "src/translator.ml" 55 2503 2516
+)
+"src/translator.ml" 57 2580 2586 "src/translator.ml" 57 2580 2647
+type(
+  IR.Term.t
+)
+"src/translator.ml" 56 2541 2547 "src/translator.ml" 57 2580 2647
+type(
+  IR.Term.t
+)
+"src/translator.ml" 55 2503 2509 "src/translator.ml" 57 2580 2647
+type(
+  IR.Term.t
+)
+"src/translator.ml" 59 2649 2675 "src/translator.ml" 59 2649 2677
+type(
+  Lang.Pattern.t
+)
+ident(
+  def pp "src/translator.ml" 60 2690 2696 "src/translator.ml" 62 2775 2854
+)
+"src/translator.ml" 59 2649 2679 "src/translator.ml" 59 2649 2680
+type(
+  string
+)
+ident(
+  def x "src/translator.ml" 60 2690 2696 "src/translator.ml" 62 2775 2854
+)
+"src/translator.ml" 59 2649 2682 "src/translator.ml" 59 2649 2685
+type(
+  Lang.Type.t
+)
+ident(
+  def tau "src/translator.ml" 60 2690 2696 "src/translator.ml" 62 2775 2854
+)
+"src/translator.ml" 59 2649 2655 "src/translator.ml" 59 2649 2686
+type(
+  Lang.Pattern.t
+)
+"src/translator.ml" 60 2690 2700 "src/translator.ml" 60 2690 2703
+type(
+  IR.Term.t
+)
+ident(
+  def t1' "src/translator.ml" 61 2728 2734 "src/translator.ml" 62 2775 2854
+)
+"src/translator.ml" 60 2690 2706 "src/translator.ml" 60 2690 2720
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 60 2690 2721 "src/translator.ml" 60 2690 2724
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref arg "src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+)
+"src/translator.ml" 60 2690 2706 "src/translator.ml" 60 2690 2724
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 61 2728 2738 "src/translator.ml" 61 2728 2740
+type(
+  Lang.Term.t
+)
+ident(
+  def t' "src/translator.ml" 62 2775 2781 "src/translator.ml" 62 2775 2854
+)
+"src/translator.ml" 61 2728 2757 "src/translator.ml" 61 2728 2759
+type(
+  Lang.Pattern.t
+)
+ident(
+  int_ref pp "src/translator.ml" 59 2649 2675 "src/translator.ml" 59 2649 2677
+)
+"src/translator.ml" 61 2728 2761 "src/translator.ml" 61 2728 2764
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref arg "src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+)
+"src/translator.ml" 61 2728 2766 "src/translator.ml" 61 2728 2770
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref body "src/translator.ml" 47 2266 2293 "src/translator.ml" 47 2266 2297
+)
+"src/translator.ml" 61 2728 2743 "src/translator.ml" 61 2728 2771
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 62 2775 2807 "src/translator.ml" 62 2775 2808
+type(
+  string
+)
+ident(
+  int_ref x "src/translator.ml" 59 2649 2679 "src/translator.ml" 59 2649 2680
+)
+"src/translator.ml" 62 2775 2810 "src/translator.ml" 62 2775 2824
+type(
+  Lang.Type.t -> IR.Type.t
+)
+ident(
+  int_ref translate_type "src/translator.ml" 6 45 53 "src/translator.ml" 6 45 67
+)
+"src/translator.ml" 62 2775 2825 "src/translator.ml" 62 2775 2828
+type(
+  Lang.Type.t
+)
+ident(
+  int_ref tau "src/translator.ml" 59 2649 2682 "src/translator.ml" 59 2649 2685
+)
+"src/translator.ml" 62 2775 2810 "src/translator.ml" 62 2775 2828
+call(
+  stack
+)
+type(
+  IR.Type.t
+)
+"src/translator.ml" 62 2775 2830 "src/translator.ml" 62 2775 2844
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 62 2775 2845 "src/translator.ml" 62 2775 2847
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t' "src/translator.ml" 61 2728 2738 "src/translator.ml" 61 2728 2740
+)
+"src/translator.ml" 62 2775 2830 "src/translator.ml" 62 2775 2847
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 62 2775 2794 "src/translator.ml" 62 2775 2848
+type(
+  IR.Term.t
+)
+"src/translator.ml" 62 2775 2850 "src/translator.ml" 62 2775 2853
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t1' "src/translator.ml" 60 2690 2700 "src/translator.ml" 60 2690 2703
+)
+"src/translator.ml" 62 2775 2781 "src/translator.ml" 62 2775 2854
+type(
+  IR.Term.t
+)
+"src/translator.ml" 61 2728 2734 "src/translator.ml" 62 2775 2854
+type(
+  IR.Term.t
+)
+"src/translator.ml" 60 2690 2696 "src/translator.ml" 62 2775 2854
+type(
+  IR.Term.t
+)
+"src/translator.ml" 64 2856 2882 "src/translator.ml" 64 2856 2884
+type(
+  Lang.Pattern.t
+)
+ident(
+  def p1 "src/translator.ml" 65 2893 2899 "src/translator.ml" 69 3088 3114
+)
+"src/translator.ml" 64 2856 2886 "src/translator.ml" 64 2856 2888
+type(
+  Lang.Pattern.t
+)
+ident(
+  def p2 "src/translator.ml" 65 2893 2899 "src/translator.ml" 69 3088 3114
+)
+"src/translator.ml" 64 2856 2862 "src/translator.ml" 64 2856 2889
+type(
+  Lang.Pattern.t
+)
+"src/translator.ml" 65 2893 2903 "src/translator.ml" 65 2893 2904
+type(
+  Lang.Term.t
+)
+ident(
+  def l "src/translator.ml" 66 2940 2946 "src/translator.ml" 69 3088 3114
+)
+"src/translator.ml" 65 2893 2926 "src/translator.ml" 65 2893 2929
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref arg "src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+)
+"src/translator.ml" 65 2893 2931 "src/translator.ml" 65 2893 2935
+type(
+  direction
+)
+"src/translator.ml" 65 2893 2907 "src/translator.ml" 65 2893 2936
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 66 2940 2950 "src/translator.ml" 66 2940 2951
+type(
+  Lang.Term.t
+)
+ident(
+  def r "src/translator.ml" 67 2989 2995 "src/translator.ml" 69 3088 3114
+)
+"src/translator.ml" 66 2940 2973 "src/translator.ml" 66 2940 2976
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref arg "src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+)
+"src/translator.ml" 66 2940 2978 "src/translator.ml" 66 2940 2983
+type(
+  direction
+)
+"src/translator.ml" 66 2940 2954 "src/translator.ml" 66 2940 2984
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 67 2989 2999 "src/translator.ml" 67 2989 3004
+type(
+  Lang.Term.t
+)
+ident(
+  def part2 "src/translator.ml" 68 3038 3044 "src/translator.ml" 69 3088 3114
+)
+"src/translator.ml" 67 2989 3022 "src/translator.ml" 67 2989 3024
+type(
+  Lang.Pattern.t
+)
+ident(
+  int_ref p2 "src/translator.ml" 64 2856 2886 "src/translator.ml" 64 2856 2888
+)
+"src/translator.ml" 67 2989 3026 "src/translator.ml" 67 2989 3027
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref r "src/translator.ml" 66 2940 2950 "src/translator.ml" 66 2940 2951
+)
+"src/translator.ml" 67 2989 3029 "src/translator.ml" 67 2989 3033
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref body "src/translator.ml" 47 2266 2293 "src/translator.ml" 47 2266 2297
+)
+"src/translator.ml" 67 2989 3007 "src/translator.ml" 67 2989 3034
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 68 3038 3048 "src/translator.ml" 68 3038 3053
+type(
+  Lang.Term.t
+)
+ident(
+  def part1 "src/translator.ml" 69 3088 3094 "src/translator.ml" 69 3088 3114
+)
+"src/translator.ml" 68 3038 3071 "src/translator.ml" 68 3038 3073
+type(
+  Lang.Pattern.t
+)
+ident(
+  int_ref p1 "src/translator.ml" 64 2856 2882 "src/translator.ml" 64 2856 2884
+)
+"src/translator.ml" 68 3038 3075 "src/translator.ml" 68 3038 3076
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref l "src/translator.ml" 65 2893 2903 "src/translator.ml" 65 2893 2904
+)
+"src/translator.ml" 68 3038 3078 "src/translator.ml" 68 3038 3083
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref part2 "src/translator.ml" 67 2989 2999 "src/translator.ml" 67 2989 3004
+)
+"src/translator.ml" 68 3038 3056 "src/translator.ml" 68 3038 3084
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 69 3088 3094 "src/translator.ml" 69 3088 3108
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 69 3088 3109 "src/translator.ml" 69 3088 3114
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref part1 "src/translator.ml" 68 3038 3048 "src/translator.ml" 68 3038 3053
+)
+"src/translator.ml" 69 3088 3094 "src/translator.ml" 69 3088 3114
+call(
+  tail
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 68 3038 3044 "src/translator.ml" 69 3088 3114
+type(
+  IR.Term.t
+)
+"src/translator.ml" 67 2989 2995 "src/translator.ml" 69 3088 3114
+type(
+  IR.Term.t
+)
+"src/translator.ml" 66 2940 2946 "src/translator.ml" 69 3088 3114
+type(
+  IR.Term.t
+)
+"src/translator.ml" 65 2893 2899 "src/translator.ml" 69 3088 3114
+type(
+  IR.Term.t
+)
+"src/translator.ml" 71 3116 3144 "src/translator.ml" 71 3116 3149
+type(
+  string
+)
+ident(
+  def cap_x "src/translator.ml" 72 3157 3163 "src/translator.ml" 74 3234 3276
+)
+"src/translator.ml" 71 3116 3151 "src/translator.ml" 71 3116 3152
+type(
+  string
+)
+ident(
+  def x "src/translator.ml" 72 3157 3163 "src/translator.ml" 74 3234 3276
+)
+"src/translator.ml" 71 3116 3122 "src/translator.ml" 71 3116 3153
+type(
+  Lang.Pattern.t
+)
+"src/translator.ml" 72 3157 3167 "src/translator.ml" 72 3157 3170
+type(
+  IR.Term.t
+)
+ident(
+  def t1' "src/translator.ml" 73 3195 3201 "src/translator.ml" 74 3234 3276
+)
+"src/translator.ml" 72 3157 3173 "src/translator.ml" 72 3157 3187
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 72 3157 3188 "src/translator.ml" 72 3157 3191
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref arg "src/translator.ml" 47 2266 2288 "src/translator.ml" 47 2266 2291
+)
+"src/translator.ml" 72 3157 3173 "src/translator.ml" 72 3157 3191
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 73 3195 3205 "src/translator.ml" 73 3195 3208
+type(
+  IR.Term.t
+)
+ident(
+  def t2' "src/translator.ml" 74 3234 3240 "src/translator.ml" 74 3234 3276
+)
+"src/translator.ml" 73 3195 3211 "src/translator.ml" 73 3195 3225
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 73 3195 3226 "src/translator.ml" 73 3195 3230
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref body "src/translator.ml" 47 2266 2293 "src/translator.ml" 47 2266 2297
+)
+"src/translator.ml" 73 3195 3211 "src/translator.ml" 73 3195 3230
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 74 3234 3257 "src/translator.ml" 74 3234 3262
+type(
+  string
+)
+ident(
+  int_ref cap_x "src/translator.ml" 71 3116 3144 "src/translator.ml" 71 3116 3149
+)
+"src/translator.ml" 74 3234 3264 "src/translator.ml" 74 3234 3265
+type(
+  string
+)
+ident(
+  int_ref x "src/translator.ml" 71 3116 3151 "src/translator.ml" 71 3116 3152
+)
+"src/translator.ml" 74 3234 3267 "src/translator.ml" 74 3234 3270
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t1' "src/translator.ml" 72 3157 3167 "src/translator.ml" 72 3157 3170
+)
+"src/translator.ml" 74 3234 3272 "src/translator.ml" 74 3234 3275
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t2' "src/translator.ml" 73 3195 3205 "src/translator.ml" 73 3195 3208
+)
+"src/translator.ml" 74 3234 3240 "src/translator.ml" 74 3234 3276
+type(
+  IR.Term.t
+)
+"src/translator.ml" 73 3195 3201 "src/translator.ml" 74 3234 3276
+type(
+  IR.Term.t
+)
+"src/translator.ml" 72 3157 3163 "src/translator.ml" 74 3234 3276
+type(
+  IR.Term.t
+)
+"src/translator.ml" 50 2392 2396 "src/translator.ml" 75 3278 3283
+type(
+  IR.Term.t
+)
+"src/translator.ml" 21 915 917 "src/translator.ml" 75 3278 3283
+type(
+  IR.Term.t
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 76 3284 3288 "src/translator.ml" 76 3284 3297
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  def translate "src/translator.ml" 78 3320 3320 "src/translator.ml" 1 0 -1
+)
+"src/translator.ml" 76 3284 3298 "src/translator.ml" 76 3284 3299
+type(
+  Lang.Term.t
+)
+ident(
+  def t "src/translator.ml" 76 3284 3302 "src/translator.ml" 76 3284 3318
+)
+"src/translator.ml" 76 3284 3302 "src/translator.ml" 76 3284 3316
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 76 3284 3317 "src/translator.ml" 76 3284 3318
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t "src/translator.ml" 76 3284 3298 "src/translator.ml" 76 3284 3299
+)
+"src/translator.ml" 76 3284 3302 "src/translator.ml" 76 3284 3318
+call(
+  tail
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 78 3320 3324 "src/translator.ml" 78 3320 3336
+type(
+  unit -> unit
+)
+ident(
+  def inline_tests "src/translator.ml" 94 3678 3678 "src/translator.ml" 1 0 -1
+)
+"src/translator.ml" 78 3320 3337 "src/translator.ml" 78 3320 3339
+type(
+  unit
+)
+"src/translator.ml" 79 3342 3352 "src/translator.ml" 79 3342 3366
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 79 3342 3382 "src/translator.ml" 79 3342 3383
+type(
+  int
+)
+"src/translator.ml" 79 3342 3367 "src/translator.ml" 79 3342 3384
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 79 3342 3352 "src/translator.ml" 79 3342 3384
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 79 3342 3385 "src/translator.ml" 79 3342 3386
+type(
+  IR.Term.t -> IR.Term.t -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/translator.ml" 79 3342 3399 "src/translator.ml" 79 3342 3400
+type(
+  int
+)
+"src/translator.ml" 79 3342 3387 "src/translator.ml" 79 3342 3400
+type(
+  IR.Term.t
+)
+"src/translator.ml" 79 3342 3351 "src/translator.ml" 79 3342 3401
+type(
+  bool
+)
+"src/translator.ml" 79 3342 3344 "src/translator.ml" 79 3342 3401
+type(
+  unit
+)
+"src/translator.ml" 81 3404 3410 "src/translator.ml" 81 3404 3411
+type(
+  Lang.Term.t
+)
+ident(
+  def t "src/translator.ml" 87 3532 3534 "src/translator.ml" 92 3642 3676
+)
+"src/translator.ml" 83 3434 3458 "src/translator.ml" 83 3434 3461
+type(
+  string
+)
+"src/translator.ml" 83 3434 3463 "src/translator.ml" 83 3434 3476
+type(
+  Lang.Type.t
+)
+"src/translator.ml" 83 3434 3440 "src/translator.ml" 83 3434 3477
+type(
+  Lang.Pattern.t
+)
+"src/translator.ml" 84 3479 3499 "src/translator.ml" 84 3479 3500
+type(
+  int
+)
+"src/translator.ml" 84 3479 3485 "src/translator.ml" 84 3479 3500
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 85 3502 3522 "src/translator.ml" 85 3502 3525
+type(
+  string
+)
+"src/translator.ml" 85 3502 3508 "src/translator.ml" 85 3502 3525
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 82 3414 3418 "src/translator.ml" 85 3502 3526
+type(
+  Lang.Term.t
+)
+"src/translator.ml" 87 3532 3538 "src/translator.ml" 87 3532 3540
+type(
+  IR.Term.t
+)
+ident(
+  def t' "src/translator.ml" 92 3642 3644 "src/translator.ml" 92 3642 3676
+)
+"src/translator.ml" 89 3561 3580 "src/translator.ml" 89 3561 3583
+type(
+  string
+)
+"src/translator.ml" 89 3561 3585 "src/translator.ml" 89 3561 3596
+type(
+  IR.Type.t
+)
+"src/translator.ml" 89 3561 3610 "src/translator.ml" 89 3561 3613
+type(
+  string
+)
+"src/translator.ml" 89 3561 3598 "src/translator.ml" 89 3561 3613
+type(
+  IR.Term.t
+)
+"src/translator.ml" 89 3561 3567 "src/translator.ml" 89 3561 3614
+type(
+  IR.Term.t
+)
+"src/translator.ml" 90 3616 3634 "src/translator.ml" 90 3616 3635
+type(
+  int
+)
+"src/translator.ml" 90 3616 3622 "src/translator.ml" 90 3616 3635
+type(
+  IR.Term.t
+)
+"src/translator.ml" 88 3543 3547 "src/translator.ml" 90 3616 3636
+type(
+  IR.Term.t
+)
+"src/translator.ml" 92 3642 3652 "src/translator.ml" 92 3642 3666
+type(
+  Lang.Term.t -> IR.Term.t
+)
+ident(
+  int_ref translate_term "src/translator.ml" 20 860 868 "src/translator.ml" 20 860 882
+)
+"src/translator.ml" 92 3642 3667 "src/translator.ml" 92 3642 3670
+type(
+  Lang.Term.t
+)
+ident(
+  int_ref t "src/translator.ml" 81 3404 3410 "src/translator.ml" 81 3404 3411
+)
+"src/translator.ml" 92 3642 3652 "src/translator.ml" 92 3642 3670
+call(
+  stack
+)
+type(
+  IR.Term.t
+)
+"src/translator.ml" 92 3642 3671 "src/translator.ml" 92 3642 3672
+type(
+  IR.Term.t -> IR.Term.t -> bool
+)
+ident(
+  ext_ref Core.( = )
+)
+"src/translator.ml" 92 3642 3673 "src/translator.ml" 92 3642 3675
+type(
+  IR.Term.t
+)
+ident(
+  int_ref t' "src/translator.ml" 87 3532 3538 "src/translator.ml" 87 3532 3540
+)
+"src/translator.ml" 92 3642 3651 "src/translator.ml" 92 3642 3676
+type(
+  bool
+)
+"src/translator.ml" 92 3642 3644 "src/translator.ml" 92 3642 3676
+type(
+  unit
+)
+"src/translator.ml" 87 3532 3534 "src/translator.ml" 92 3642 3676
+type(
+  unit
+)
+"src/translator.ml" 81 3404 3406 "src/translator.ml" 92 3642 3676
+type(
+  unit
+)
+"src/translator.ml" 79 3342 3344 "src/translator.ml" 92 3642 3676
+type(
+  unit
+)
+"src/translator.ml" 94 3678 3682 "src/translator.ml" 94 3678 3684
+type(
+  unit
+)
+"src/translator.ml" 94 3678 3687 "src/translator.ml" 94 3678 3699
+type(
+  unit -> unit
+)
+ident(
+  int_ref inline_tests "src/translator.ml" 78 3320 3324 "src/translator.ml" 78 3320 3336
+)
+"src/translator.ml" 94 3678 3700 "src/translator.ml" 94 3678 3702
+type(
+  unit
+)
+"src/translator.ml" 94 3678 3687 "src/translator.ml" 94 3678 3702
+call(
+  stack
+)
+type(
+  unit
+)

@@ -1,0 +1,1 @@
+(fn (clow: int) . clow * 7) 20
